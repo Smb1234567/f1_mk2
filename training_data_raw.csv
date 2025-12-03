@@ -1,0 +1,1400 @@
+DriverCode,DriverNumber,TeamName,GridPosition,Position,Status,Points,Year,EventName,CircuitName,RoundNumber,IsWetRace
+SAI,55,Ferrari,1.0,1.0,Finished,25.0,2022,British Grand Prix,Silverstone,10,0
+PER,11,Red Bull Racing,4.0,2.0,Finished,18.0,2022,British Grand Prix,Silverstone,10,0
+HAM,44,Mercedes,5.0,3.0,Finished,16.0,2022,British Grand Prix,Silverstone,10,0
+LEC,16,Ferrari,3.0,4.0,Finished,12.0,2022,British Grand Prix,Silverstone,10,0
+ALO,14,Alpine,7.0,5.0,Finished,10.0,2022,British Grand Prix,Silverstone,10,0
+NOR,4,McLaren,6.0,6.0,Finished,8.0,2022,British Grand Prix,Silverstone,10,0
+VER,1,Red Bull Racing,2.0,7.0,Finished,6.0,2022,British Grand Prix,Silverstone,10,0
+MSC,47,Haas F1 Team,19.0,8.0,Finished,4.0,2022,British Grand Prix,Silverstone,10,0
+VET,5,Aston Martin,18.0,9.0,Finished,2.0,2022,British Grand Prix,Silverstone,10,0
+MAG,20,Haas F1 Team,17.0,10.0,Finished,1.0,2022,British Grand Prix,Silverstone,10,0
+STR,18,Aston Martin,20.0,11.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+LAT,6,Williams,10.0,12.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+RIC,3,McLaren,14.0,13.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+TSU,22,AlphaTauri,13.0,14.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+OCO,31,Alpine,15.0,15.0,Fuel pump,0.0,2022,British Grand Prix,Silverstone,10,0
+GAS,10,AlphaTauri,11.0,16.0,Collision damage,0.0,2022,British Grand Prix,Silverstone,10,0
+BOT,77,Alfa Romeo,12.0,17.0,Gearbox,0.0,2022,British Grand Prix,Silverstone,10,0
+RUS,63,Mercedes,8.0,18.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+ZHO,24,Alfa Romeo,9.0,19.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+ALB,23,Williams,16.0,20.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2022,United States Grand Prix,Austin,19,0
+HAM,44,Mercedes,3.0,2.0,Finished,18.0,2022,United States Grand Prix,Austin,19,0
+LEC,16,Ferrari,12.0,3.0,Finished,15.0,2022,United States Grand Prix,Austin,19,0
+PER,11,Red Bull Racing,9.0,4.0,Finished,12.0,2022,United States Grand Prix,Austin,19,0
+RUS,63,Mercedes,4.0,5.0,Finished,11.0,2022,United States Grand Prix,Austin,19,0
+NOR,4,McLaren,6.0,6.0,Finished,8.0,2022,United States Grand Prix,Austin,19,0
+ALO,14,Alpine,14.0,7.0,Finished,6.0,2022,United States Grand Prix,Austin,19,0
+VET,5,Aston Martin,10.0,8.0,Finished,4.0,2022,United States Grand Prix,Austin,19,0
+MAG,20,Haas F1 Team,13.0,9.0,Finished,2.0,2022,United States Grand Prix,Austin,19,0
+TSU,22,AlphaTauri,19.0,10.0,Finished,1.0,2022,United States Grand Prix,Austin,19,0
+OCO,31,Alpine,,11.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+ZHO,24,Alfa Romeo,18.0,12.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+ALB,23,Williams,8.0,13.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+GAS,10,AlphaTauri,11.0,14.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+MSC,47,Haas F1 Team,16.0,15.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+RIC,3,McLaren,15.0,16.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+LAT,6,Williams,17.0,17.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+STR,18,Aston Martin,5.0,18.0,Collision,0.0,2022,United States Grand Prix,Austin,19,0
+BOT,77,Alfa Romeo,7.0,19.0,Spun off,0.0,2022,United States Grand Prix,Austin,19,0
+SAI,55,Ferrari,1.0,20.0,Collision damage,0.0,2022,United States Grand Prix,Austin,19,0
+LEC,16,Ferrari,1.0,1.0,Finished,26.0,2022,Bahrain Grand Prix,Sakhir,1,0
+SAI,55,Ferrari,3.0,2.0,Finished,18.0,2022,Bahrain Grand Prix,Sakhir,1,0
+HAM,44,Mercedes,5.0,3.0,Finished,15.0,2022,Bahrain Grand Prix,Sakhir,1,0
+RUS,63,Mercedes,9.0,4.0,Finished,12.0,2022,Bahrain Grand Prix,Sakhir,1,0
+MAG,20,Haas F1 Team,7.0,5.0,Finished,10.0,2022,Bahrain Grand Prix,Sakhir,1,0
+BOT,77,Alfa Romeo,6.0,6.0,Finished,8.0,2022,Bahrain Grand Prix,Sakhir,1,0
+OCO,31,Alpine,11.0,7.0,Finished,6.0,2022,Bahrain Grand Prix,Sakhir,1,0
+TSU,22,AlphaTauri,16.0,8.0,Finished,4.0,2022,Bahrain Grand Prix,Sakhir,1,0
+ALO,14,Alpine,8.0,9.0,Finished,2.0,2022,Bahrain Grand Prix,Sakhir,1,0
+ZHO,24,Alfa Romeo,15.0,10.0,Finished,1.0,2022,Bahrain Grand Prix,Sakhir,1,0
+MSC,47,Haas F1 Team,12.0,11.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+STR,18,Aston Martin,19.0,12.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+ALB,23,Williams,14.0,13.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+RIC,3,McLaren,18.0,14.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+NOR,4,McLaren,13.0,15.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+LAT,6,Williams,20.0,16.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+HUL,27,Aston Martin,17.0,17.0,Finished,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+PER,11,Red Bull Racing,4.0,18.0,Fuel pressure,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+VER,1,Red Bull Racing,2.0,19.0,Fuel pressure,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+GAS,10,AlphaTauri,10.0,20.0,Power Unit,0.0,2022,Bahrain Grand Prix,Sakhir,1,0
+VER,1,Red Bull Racing,4.0,1.0,Finished,25.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+LEC,16,Ferrari,2.0,2.0,Finished,19.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+SAI,55,Ferrari,3.0,3.0,Finished,15.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+PER,11,Red Bull Racing,1.0,4.0,Finished,12.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+RUS,63,Mercedes,6.0,5.0,Finished,10.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+OCO,31,Alpine,5.0,6.0,Finished,8.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+NOR,4,McLaren,11.0,7.0,Finished,6.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+GAS,10,AlphaTauri,9.0,8.0,Finished,4.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+MAG,20,Haas F1 Team,10.0,9.0,Finished,2.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+HAM,44,Mercedes,15.0,10.0,Finished,1.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+ZHO,24,Alfa Romeo,12.0,11.0,Finished,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+HUL,27,Aston Martin,17.0,12.0,Finished,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+STR,18,Aston Martin,13.0,13.0,+1 Lap,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+ALB,23,Williams,16.0,14.0,Collision damage,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+BOT,77,Alfa Romeo,8.0,15.0,Cooling system,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+ALO,14,Alpine,7.0,16.0,Water pump,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+RIC,3,McLaren,14.0,17.0,Gearbox,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+LAT,6,Williams,18.0,18.0,Accident,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+TSU,22,AlphaTauri,19.0,19.0,Power Unit,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+MSC,47,Haas F1 Team,,,Withdrew,0.0,2022,Saudi Arabian Grand Prix,Jeddah,2,0
+LEC,16,Ferrari,1.0,1.0,Finished,26.0,2022,Australian Grand Prix,Melbourne,3,0
+PER,11,Red Bull Racing,3.0,2.0,Finished,18.0,2022,Australian Grand Prix,Melbourne,3,0
+RUS,63,Mercedes,6.0,3.0,Finished,15.0,2022,Australian Grand Prix,Melbourne,3,0
+HAM,44,Mercedes,5.0,4.0,Finished,12.0,2022,Australian Grand Prix,Melbourne,3,0
+NOR,4,McLaren,4.0,5.0,Finished,10.0,2022,Australian Grand Prix,Melbourne,3,0
+RIC,3,McLaren,7.0,6.0,Finished,8.0,2022,Australian Grand Prix,Melbourne,3,0
+OCO,31,Alpine,8.0,7.0,Finished,6.0,2022,Australian Grand Prix,Melbourne,3,0
+BOT,77,Alfa Romeo,12.0,8.0,Finished,4.0,2022,Australian Grand Prix,Melbourne,3,0
+GAS,10,AlphaTauri,11.0,9.0,Finished,2.0,2022,Australian Grand Prix,Melbourne,3,0
+ALB,23,Williams,20.0,10.0,Finished,1.0,2022,Australian Grand Prix,Melbourne,3,0
+ZHO,24,Alfa Romeo,14.0,11.0,Finished,0.0,2022,Australian Grand Prix,Melbourne,3,0
+STR,18,Aston Martin,19.0,12.0,Finished,0.0,2022,Australian Grand Prix,Melbourne,3,0
+MSC,47,Haas F1 Team,15.0,13.0,+1 Lap,0.0,2022,Australian Grand Prix,Melbourne,3,0
+MAG,20,Haas F1 Team,16.0,14.0,+1 Lap,0.0,2022,Australian Grand Prix,Melbourne,3,0
+TSU,22,AlphaTauri,13.0,15.0,+1 Lap,0.0,2022,Australian Grand Prix,Melbourne,3,0
+LAT,6,Williams,18.0,16.0,+1 Lap,0.0,2022,Australian Grand Prix,Melbourne,3,0
+ALO,14,Alpine,10.0,17.0,+1 Lap,0.0,2022,Australian Grand Prix,Melbourne,3,0
+VER,1,Red Bull Racing,2.0,18.0,Fuel leak,0.0,2022,Australian Grand Prix,Melbourne,3,0
+VET,5,Aston Martin,17.0,19.0,Accident,0.0,2022,Australian Grand Prix,Melbourne,3,0
+SAI,55,Ferrari,9.0,20.0,Spun off,0.0,2022,Australian Grand Prix,Melbourne,3,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+PER,11,Red Bull Racing,3.0,2.0,Finished,18.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+NOR,4,McLaren,5.0,3.0,Finished,15.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+RUS,63,Mercedes,11.0,4.0,Finished,12.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+BOT,77,Alfa Romeo,7.0,5.0,Finished,10.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+LEC,16,Ferrari,2.0,6.0,Finished,8.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+TSU,22,AlphaTauri,12.0,7.0,Finished,6.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+VET,5,Aston Martin,13.0,8.0,Finished,4.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+MAG,20,Haas F1 Team,8.0,9.0,Finished,2.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+STR,18,Aston Martin,15.0,10.0,+1 Lap,1.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+ALB,23,Williams,18.0,11.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+GAS,10,AlphaTauri,17.0,12.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+HAM,44,Mercedes,14.0,13.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+OCO,31,Alpine,16.0,14.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+ZHO,24,Alfa Romeo,,15.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+LAT,6,Williams,19.0,16.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+MSC,47,Haas F1 Team,10.0,17.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+RIC,3,McLaren,6.0,18.0,+1 Lap,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+ALO,14,Alpine,9.0,19.0,Collision damage,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+SAI,55,Ferrari,4.0,20.0,Collision,0.0,2022,Emilia Romagna Grand Prix,Imola,4,1
+VER,1,Red Bull Racing,3.0,1.0,Finished,26.0,2022,Miami Grand Prix,Miami,5,0
+LEC,16,Ferrari,1.0,2.0,Finished,18.0,2022,Miami Grand Prix,Miami,5,0
+SAI,55,Ferrari,2.0,3.0,Finished,15.0,2022,Miami Grand Prix,Miami,5,0
+PER,11,Red Bull Racing,4.0,4.0,Finished,12.0,2022,Miami Grand Prix,Miami,5,0
+RUS,63,Mercedes,12.0,5.0,Finished,10.0,2022,Miami Grand Prix,Miami,5,0
+HAM,44,Mercedes,6.0,6.0,Finished,8.0,2022,Miami Grand Prix,Miami,5,0
+BOT,77,Alfa Romeo,5.0,7.0,Finished,6.0,2022,Miami Grand Prix,Miami,5,0
+OCO,31,Alpine,20.0,8.0,Finished,4.0,2022,Miami Grand Prix,Miami,5,0
+ALB,23,Williams,18.0,9.0,Finished,2.0,2022,Miami Grand Prix,Miami,5,0
+STR,18,Aston Martin,,10.0,Finished,1.0,2022,Miami Grand Prix,Miami,5,0
+ALO,14,Alpine,11.0,11.0,Finished,0.0,2022,Miami Grand Prix,Miami,5,0
+TSU,22,AlphaTauri,9.0,12.0,Finished,0.0,2022,Miami Grand Prix,Miami,5,0
+RIC,3,McLaren,14.0,13.0,Finished,0.0,2022,Miami Grand Prix,Miami,5,0
+LAT,6,Williams,19.0,14.0,Finished,0.0,2022,Miami Grand Prix,Miami,5,0
+MSC,47,Haas F1 Team,15.0,15.0,Finished,0.0,2022,Miami Grand Prix,Miami,5,0
+MAG,20,Haas F1 Team,16.0,16.0,Front wing,0.0,2022,Miami Grand Prix,Miami,5,0
+VET,5,Aston Martin,,17.0,Collision,0.0,2022,Miami Grand Prix,Miami,5,0
+GAS,10,AlphaTauri,7.0,18.0,Suspension,0.0,2022,Miami Grand Prix,Miami,5,0
+NOR,4,McLaren,8.0,19.0,Collision,0.0,2022,Miami Grand Prix,Miami,5,0
+ZHO,24,Alfa Romeo,17.0,20.0,Water leak,0.0,2022,Miami Grand Prix,Miami,5,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2022,Spanish Grand Prix,Barcelona,6,0
+PER,11,Red Bull Racing,5.0,2.0,Finished,19.0,2022,Spanish Grand Prix,Barcelona,6,0
+RUS,63,Mercedes,4.0,3.0,Finished,15.0,2022,Spanish Grand Prix,Barcelona,6,0
+SAI,55,Ferrari,3.0,4.0,Finished,12.0,2022,Spanish Grand Prix,Barcelona,6,0
+HAM,44,Mercedes,6.0,5.0,Finished,10.0,2022,Spanish Grand Prix,Barcelona,6,0
+BOT,77,Alfa Romeo,7.0,6.0,Finished,8.0,2022,Spanish Grand Prix,Barcelona,6,0
+OCO,31,Alpine,12.0,7.0,Finished,6.0,2022,Spanish Grand Prix,Barcelona,6,0
+NOR,4,McLaren,11.0,8.0,Finished,4.0,2022,Spanish Grand Prix,Barcelona,6,0
+ALO,14,Alpine,20.0,9.0,+1 Lap,2.0,2022,Spanish Grand Prix,Barcelona,6,0
+TSU,22,AlphaTauri,13.0,10.0,+1 Lap,1.0,2022,Spanish Grand Prix,Barcelona,6,0
+VET,5,Aston Martin,16.0,11.0,+1 Lap,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+RIC,3,McLaren,9.0,12.0,+1 Lap,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+GAS,10,AlphaTauri,14.0,13.0,+1 Lap,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+MSC,47,Haas F1 Team,10.0,14.0,+1 Lap,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+STR,18,Aston Martin,17.0,15.0,+1 Lap,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+LAT,6,Williams,19.0,16.0,+2 Laps,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+MAG,20,Haas F1 Team,8.0,17.0,+2 Laps,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+ALB,23,Williams,18.0,18.0,+2 Laps,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+ZHO,24,Alfa Romeo,15.0,19.0,Power loss,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+LEC,16,Ferrari,1.0,20.0,Turbo,0.0,2022,Spanish Grand Prix,Barcelona,6,0
+PER,11,Red Bull Racing,3.0,1.0,Finished,25.0,2022,Monaco Grand Prix,Monaco,7,1
+SAI,55,Ferrari,2.0,2.0,Finished,18.0,2022,Monaco Grand Prix,Monaco,7,1
+VER,1,Red Bull Racing,4.0,3.0,Finished,15.0,2022,Monaco Grand Prix,Monaco,7,1
+LEC,16,Ferrari,1.0,4.0,Finished,12.0,2022,Monaco Grand Prix,Monaco,7,1
+RUS,63,Mercedes,6.0,5.0,Finished,10.0,2022,Monaco Grand Prix,Monaco,7,1
+NOR,4,McLaren,5.0,6.0,Finished,9.0,2022,Monaco Grand Prix,Monaco,7,1
+ALO,14,Alpine,7.0,7.0,Finished,6.0,2022,Monaco Grand Prix,Monaco,7,1
+HAM,44,Mercedes,8.0,8.0,Finished,4.0,2022,Monaco Grand Prix,Monaco,7,1
+BOT,77,Alfa Romeo,12.0,9.0,Finished,2.0,2022,Monaco Grand Prix,Monaco,7,1
+VET,5,Aston Martin,9.0,10.0,Finished,1.0,2022,Monaco Grand Prix,Monaco,7,1
+GAS,10,AlphaTauri,17.0,11.0,Finished,0.0,2022,Monaco Grand Prix,Monaco,7,1
+OCO,31,Alpine,10.0,12.0,Finished,0.0,2022,Monaco Grand Prix,Monaco,7,1
+RIC,3,McLaren,14.0,13.0,Finished,0.0,2022,Monaco Grand Prix,Monaco,7,1
+STR,18,Aston Martin,18.0,14.0,Finished,0.0,2022,Monaco Grand Prix,Monaco,7,1
+LAT,6,Williams,19.0,15.0,+1 Lap,0.0,2022,Monaco Grand Prix,Monaco,7,1
+ZHO,24,Alfa Romeo,20.0,16.0,+1 Lap,0.0,2022,Monaco Grand Prix,Monaco,7,1
+TSU,22,AlphaTauri,11.0,17.0,+1 Lap,0.0,2022,Monaco Grand Prix,Monaco,7,1
+ALB,23,Williams,16.0,18.0,Mechanical,0.0,2022,Monaco Grand Prix,Monaco,7,1
+MSC,47,Haas F1 Team,15.0,19.0,Accident,0.0,2022,Monaco Grand Prix,Monaco,7,1
+MAG,20,Haas F1 Team,13.0,20.0,Water pressure,0.0,2022,Monaco Grand Prix,Monaco,7,1
+VER,1,Red Bull Racing,3.0,1.0,Finished,25.0,2022,Azerbaijan Grand Prix,Baku,8,0
+PER,11,Red Bull Racing,2.0,2.0,Finished,19.0,2022,Azerbaijan Grand Prix,Baku,8,0
+RUS,63,Mercedes,5.0,3.0,Finished,15.0,2022,Azerbaijan Grand Prix,Baku,8,0
+HAM,44,Mercedes,7.0,4.0,Finished,12.0,2022,Azerbaijan Grand Prix,Baku,8,0
+GAS,10,AlphaTauri,6.0,5.0,Finished,10.0,2022,Azerbaijan Grand Prix,Baku,8,0
+VET,5,Aston Martin,9.0,6.0,Finished,8.0,2022,Azerbaijan Grand Prix,Baku,8,0
+ALO,14,Alpine,10.0,7.0,Finished,6.0,2022,Azerbaijan Grand Prix,Baku,8,0
+RIC,3,McLaren,12.0,8.0,Finished,4.0,2022,Azerbaijan Grand Prix,Baku,8,0
+NOR,4,McLaren,11.0,9.0,Finished,2.0,2022,Azerbaijan Grand Prix,Baku,8,0
+OCO,31,Alpine,13.0,10.0,Finished,1.0,2022,Azerbaijan Grand Prix,Baku,8,0
+BOT,77,Alfa Romeo,15.0,11.0,+1 Lap,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+ALB,23,Williams,17.0,12.0,+1 Lap,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+TSU,22,AlphaTauri,8.0,13.0,+1 Lap,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+MSC,47,Haas F1 Team,20.0,14.0,+1 Lap,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+LAT,6,Williams,18.0,15.0,+1 Lap,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+STR,18,Aston Martin,19.0,16.0,Vibrations,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+MAG,20,Haas F1 Team,16.0,17.0,Power Unit,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+ZHO,24,Alfa Romeo,14.0,18.0,Hydraulics,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+LEC,16,Ferrari,1.0,19.0,Power Unit,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+SAI,55,Ferrari,4.0,20.0,Hydraulics,0.0,2022,Azerbaijan Grand Prix,Baku,8,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2022,Canadian Grand Prix,Montréal,9,0
+SAI,55,Ferrari,3.0,2.0,Finished,19.0,2022,Canadian Grand Prix,Montréal,9,0
+HAM,44,Mercedes,4.0,3.0,Finished,15.0,2022,Canadian Grand Prix,Montréal,9,0
+RUS,63,Mercedes,8.0,4.0,Finished,12.0,2022,Canadian Grand Prix,Montréal,9,0
+LEC,16,Ferrari,19.0,5.0,Finished,10.0,2022,Canadian Grand Prix,Montréal,9,0
+OCO,31,Alpine,7.0,6.0,Finished,8.0,2022,Canadian Grand Prix,Montréal,9,0
+BOT,77,Alfa Romeo,11.0,7.0,Finished,6.0,2022,Canadian Grand Prix,Montréal,9,0
+ZHO,24,Alfa Romeo,10.0,8.0,Finished,4.0,2022,Canadian Grand Prix,Montréal,9,0
+ALO,14,Alpine,2.0,9.0,Finished,2.0,2022,Canadian Grand Prix,Montréal,9,0
+STR,18,Aston Martin,17.0,10.0,Finished,1.0,2022,Canadian Grand Prix,Montréal,9,0
+RIC,3,McLaren,9.0,11.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+VET,5,Aston Martin,16.0,12.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+ALB,23,Williams,12.0,13.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+GAS,10,AlphaTauri,15.0,14.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+NOR,4,McLaren,14.0,15.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+LAT,6,Williams,18.0,16.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+MAG,20,Haas F1 Team,5.0,17.0,Finished,0.0,2022,Canadian Grand Prix,Montréal,9,0
+TSU,22,AlphaTauri,20.0,18.0,Accident,0.0,2022,Canadian Grand Prix,Montréal,9,0
+MSC,47,Haas F1 Team,6.0,19.0,Engine,0.0,2022,Canadian Grand Prix,Montréal,9,0
+PER,11,Red Bull Racing,13.0,20.0,Gearbox,0.0,2022,Canadian Grand Prix,Montréal,9,0
+SAI,55,Ferrari,1.0,1.0,Finished,25.0,2022,British Grand Prix,Silverstone,10,0
+PER,11,Red Bull Racing,4.0,2.0,Finished,18.0,2022,British Grand Prix,Silverstone,10,0
+HAM,44,Mercedes,5.0,3.0,Finished,16.0,2022,British Grand Prix,Silverstone,10,0
+LEC,16,Ferrari,3.0,4.0,Finished,12.0,2022,British Grand Prix,Silverstone,10,0
+ALO,14,Alpine,7.0,5.0,Finished,10.0,2022,British Grand Prix,Silverstone,10,0
+NOR,4,McLaren,6.0,6.0,Finished,8.0,2022,British Grand Prix,Silverstone,10,0
+VER,1,Red Bull Racing,2.0,7.0,Finished,6.0,2022,British Grand Prix,Silverstone,10,0
+MSC,47,Haas F1 Team,19.0,8.0,Finished,4.0,2022,British Grand Prix,Silverstone,10,0
+VET,5,Aston Martin,18.0,9.0,Finished,2.0,2022,British Grand Prix,Silverstone,10,0
+MAG,20,Haas F1 Team,17.0,10.0,Finished,1.0,2022,British Grand Prix,Silverstone,10,0
+STR,18,Aston Martin,20.0,11.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+LAT,6,Williams,10.0,12.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+RIC,3,McLaren,14.0,13.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+TSU,22,AlphaTauri,13.0,14.0,Finished,0.0,2022,British Grand Prix,Silverstone,10,0
+OCO,31,Alpine,15.0,15.0,Fuel pump,0.0,2022,British Grand Prix,Silverstone,10,0
+GAS,10,AlphaTauri,11.0,16.0,Collision damage,0.0,2022,British Grand Prix,Silverstone,10,0
+BOT,77,Alfa Romeo,12.0,17.0,Gearbox,0.0,2022,British Grand Prix,Silverstone,10,0
+RUS,63,Mercedes,8.0,18.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+ZHO,24,Alfa Romeo,9.0,19.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+ALB,23,Williams,16.0,20.0,Collision,0.0,2022,British Grand Prix,Silverstone,10,0
+LEC,16,Ferrari,2.0,1.0,Finished,25.0,2022,Austrian Grand Prix,Spielberg,11,0
+VER,1,Red Bull Racing,1.0,2.0,Finished,19.0,2022,Austrian Grand Prix,Spielberg,11,0
+HAM,44,Mercedes,8.0,3.0,Finished,15.0,2022,Austrian Grand Prix,Spielberg,11,0
+RUS,63,Mercedes,4.0,4.0,Finished,12.0,2022,Austrian Grand Prix,Spielberg,11,0
+OCO,31,Alpine,6.0,5.0,Finished,10.0,2022,Austrian Grand Prix,Spielberg,11,0
+MSC,47,Haas F1 Team,9.0,6.0,+1 Lap,8.0,2022,Austrian Grand Prix,Spielberg,11,0
+NOR,4,McLaren,10.0,7.0,+1 Lap,6.0,2022,Austrian Grand Prix,Spielberg,11,0
+MAG,20,Haas F1 Team,7.0,8.0,+1 Lap,4.0,2022,Austrian Grand Prix,Spielberg,11,0
+RIC,3,McLaren,11.0,9.0,+1 Lap,2.0,2022,Austrian Grand Prix,Spielberg,11,0
+ALO,14,Alpine,19.0,10.0,+1 Lap,1.0,2022,Austrian Grand Prix,Spielberg,11,0
+BOT,77,Alfa Romeo,,11.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+ALB,23,Williams,15.0,12.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+STR,18,Aston Martin,12.0,13.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+ZHO,24,Alfa Romeo,13.0,14.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+GAS,10,AlphaTauri,14.0,15.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+TSU,22,AlphaTauri,16.0,16.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+VET,5,Aston Martin,18.0,17.0,+1 Lap,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+SAI,55,Ferrari,3.0,18.0,Power Unit,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+LAT,6,Williams,17.0,19.0,Undertray,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+PER,11,Red Bull Racing,5.0,20.0,Collision damage,0.0,2022,Austrian Grand Prix,Spielberg,11,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2022,French Grand Prix,Le Castellet,12,0
+HAM,44,Mercedes,4.0,2.0,Finished,18.0,2022,French Grand Prix,Le Castellet,12,0
+RUS,63,Mercedes,6.0,3.0,Finished,15.0,2022,French Grand Prix,Le Castellet,12,0
+PER,11,Red Bull Racing,3.0,4.0,Finished,12.0,2022,French Grand Prix,Le Castellet,12,0
+SAI,55,Ferrari,19.0,5.0,Finished,11.0,2022,French Grand Prix,Le Castellet,12,0
+ALO,14,Alpine,7.0,6.0,Finished,8.0,2022,French Grand Prix,Le Castellet,12,0
+NOR,4,McLaren,5.0,7.0,Finished,6.0,2022,French Grand Prix,Le Castellet,12,0
+OCO,31,Alpine,10.0,8.0,Finished,4.0,2022,French Grand Prix,Le Castellet,12,0
+RIC,3,McLaren,9.0,9.0,Finished,2.0,2022,French Grand Prix,Le Castellet,12,0
+STR,18,Aston Martin,15.0,10.0,Finished,1.0,2022,French Grand Prix,Le Castellet,12,0
+VET,5,Aston Martin,12.0,11.0,Finished,0.0,2022,French Grand Prix,Le Castellet,12,0
+GAS,10,AlphaTauri,14.0,12.0,Finished,0.0,2022,French Grand Prix,Le Castellet,12,0
+ALB,23,Williams,13.0,13.0,Finished,0.0,2022,French Grand Prix,Le Castellet,12,0
+BOT,77,Alfa Romeo,11.0,14.0,Finished,0.0,2022,French Grand Prix,Le Castellet,12,0
+MSC,47,Haas F1 Team,17.0,15.0,Finished,0.0,2022,French Grand Prix,Le Castellet,12,0
+ZHO,24,Alfa Romeo,16.0,16.0,+6 Laps,0.0,2022,French Grand Prix,Le Castellet,12,0
+LAT,6,Williams,18.0,17.0,Collision damage,0.0,2022,French Grand Prix,Le Castellet,12,0
+MAG,20,Haas F1 Team,20.0,18.0,Collision damage,0.0,2022,French Grand Prix,Le Castellet,12,0
+LEC,16,Ferrari,1.0,19.0,Accident,0.0,2022,French Grand Prix,Le Castellet,12,0
+TSU,22,AlphaTauri,8.0,20.0,Undertray,0.0,2022,French Grand Prix,Le Castellet,12,0
+VER,1,Red Bull Racing,10.0,1.0,Finished,25.0,2022,Hungarian Grand Prix,Budapest,13,0
+HAM,44,Mercedes,7.0,2.0,Finished,19.0,2022,Hungarian Grand Prix,Budapest,13,0
+RUS,63,Mercedes,1.0,3.0,Finished,15.0,2022,Hungarian Grand Prix,Budapest,13,0
+SAI,55,Ferrari,2.0,4.0,Finished,12.0,2022,Hungarian Grand Prix,Budapest,13,0
+PER,11,Red Bull Racing,11.0,5.0,Finished,10.0,2022,Hungarian Grand Prix,Budapest,13,0
+LEC,16,Ferrari,3.0,6.0,Finished,8.0,2022,Hungarian Grand Prix,Budapest,13,0
+NOR,4,McLaren,4.0,7.0,Finished,6.0,2022,Hungarian Grand Prix,Budapest,13,0
+ALO,14,Alpine,6.0,8.0,+1 Lap,4.0,2022,Hungarian Grand Prix,Budapest,13,0
+OCO,31,Alpine,5.0,9.0,+1 Lap,2.0,2022,Hungarian Grand Prix,Budapest,13,0
+VET,5,Aston Martin,18.0,10.0,+1 Lap,1.0,2022,Hungarian Grand Prix,Budapest,13,0
+STR,18,Aston Martin,14.0,11.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+GAS,10,AlphaTauri,,12.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+ZHO,24,Alfa Romeo,12.0,13.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+MSC,47,Haas F1 Team,15.0,14.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+RIC,3,McLaren,9.0,15.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+MAG,20,Haas F1 Team,13.0,16.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+ALB,23,Williams,17.0,17.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+LAT,6,Williams,19.0,18.0,+1 Lap,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+TSU,22,AlphaTauri,16.0,19.0,+2 Laps,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+BOT,77,Alfa Romeo,8.0,20.0,Power Unit,0.0,2022,Hungarian Grand Prix,Budapest,13,0
+VER,1,Red Bull Racing,14.0,1.0,Finished,26.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+PER,11,Red Bull Racing,2.0,2.0,Finished,18.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+SAI,55,Ferrari,1.0,3.0,Finished,15.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+RUS,63,Mercedes,5.0,4.0,Finished,12.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+ALO,14,Alpine,3.0,5.0,Finished,10.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+LEC,16,Ferrari,15.0,6.0,Finished,8.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+OCO,31,Alpine,16.0,7.0,Finished,6.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+VET,5,Aston Martin,10.0,8.0,Finished,4.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+GAS,10,AlphaTauri,,9.0,Finished,2.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+ALB,23,Williams,6.0,10.0,Finished,1.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+STR,18,Aston Martin,9.0,11.0,Finished,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+NOR,4,McLaren,17.0,12.0,Finished,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+TSU,22,AlphaTauri,,13.0,Finished,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+ZHO,24,Alfa Romeo,18.0,14.0,Finished,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+RIC,3,McLaren,7.0,15.0,Finished,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+MAG,20,Haas F1 Team,12.0,16.0,+1 Lap,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+MSC,47,Haas F1 Team,19.0,17.0,+1 Lap,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+LAT,6,Williams,11.0,18.0,+1 Lap,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+BOT,77,Alfa Romeo,13.0,19.0,Accident,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+HAM,44,Mercedes,4.0,20.0,Collision damage,0.0,2022,Belgian Grand Prix,Spa-Francorchamps,14,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2022,Dutch Grand Prix,Zandvoort,15,0
+RUS,63,Mercedes,6.0,2.0,Finished,18.0,2022,Dutch Grand Prix,Zandvoort,15,0
+LEC,16,Ferrari,2.0,3.0,Finished,15.0,2022,Dutch Grand Prix,Zandvoort,15,0
+HAM,44,Mercedes,4.0,4.0,Finished,12.0,2022,Dutch Grand Prix,Zandvoort,15,0
+PER,11,Red Bull Racing,5.0,5.0,Finished,10.0,2022,Dutch Grand Prix,Zandvoort,15,0
+ALO,14,Alpine,13.0,6.0,Finished,8.0,2022,Dutch Grand Prix,Zandvoort,15,0
+NOR,4,McLaren,7.0,7.0,Finished,6.0,2022,Dutch Grand Prix,Zandvoort,15,0
+SAI,55,Ferrari,3.0,8.0,Finished,4.0,2022,Dutch Grand Prix,Zandvoort,15,0
+OCO,31,Alpine,12.0,9.0,Finished,2.0,2022,Dutch Grand Prix,Zandvoort,15,0
+STR,18,Aston Martin,10.0,10.0,Finished,1.0,2022,Dutch Grand Prix,Zandvoort,15,0
+GAS,10,AlphaTauri,11.0,11.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+ALB,23,Williams,15.0,12.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+MSC,47,Haas F1 Team,8.0,13.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+VET,5,Aston Martin,19.0,14.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+MAG,20,Haas F1 Team,18.0,15.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+ZHO,24,Alfa Romeo,14.0,16.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+RIC,3,McLaren,17.0,17.0,Finished,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+LAT,6,Williams,20.0,18.0,+1 Lap,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+BOT,77,Alfa Romeo,16.0,19.0,Engine,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+TSU,22,AlphaTauri,9.0,20.0,Differential,0.0,2022,Dutch Grand Prix,Zandvoort,15,0
+VER,1,Red Bull Racing,7.0,1.0,Finished,25.0,2022,Italian Grand Prix,Monza,16,0
+LEC,16,Ferrari,1.0,2.0,Finished,18.0,2022,Italian Grand Prix,Monza,16,0
+RUS,63,Mercedes,2.0,3.0,Finished,15.0,2022,Italian Grand Prix,Monza,16,0
+SAI,55,Ferrari,18.0,4.0,Finished,12.0,2022,Italian Grand Prix,Monza,16,0
+HAM,44,Mercedes,19.0,5.0,Finished,10.0,2022,Italian Grand Prix,Monza,16,0
+PER,11,Red Bull Racing,13.0,6.0,Finished,9.0,2022,Italian Grand Prix,Monza,16,0
+NOR,4,McLaren,3.0,7.0,Finished,6.0,2022,Italian Grand Prix,Monza,16,0
+GAS,10,AlphaTauri,5.0,8.0,Finished,4.0,2022,Italian Grand Prix,Monza,16,0
+DEV,45,Williams,8.0,9.0,Finished,2.0,2022,Italian Grand Prix,Monza,16,0
+ZHO,24,Alfa Romeo,9.0,10.0,Finished,1.0,2022,Italian Grand Prix,Monza,16,0
+OCO,31,Alpine,14.0,11.0,Finished,0.0,2022,Italian Grand Prix,Monza,16,0
+MSC,47,Haas F1 Team,17.0,12.0,Finished,0.0,2022,Italian Grand Prix,Monza,16,0
+BOT,77,Alfa Romeo,15.0,13.0,+1 Lap,0.0,2022,Italian Grand Prix,Monza,16,0
+TSU,22,AlphaTauri,20.0,14.0,+1 Lap,0.0,2022,Italian Grand Prix,Monza,16,0
+LAT,6,Williams,10.0,15.0,+1 Lap,0.0,2022,Italian Grand Prix,Monza,16,0
+MAG,20,Haas F1 Team,16.0,16.0,+1 Lap,0.0,2022,Italian Grand Prix,Monza,16,0
+RIC,3,McLaren,4.0,17.0,Oil leak,0.0,2022,Italian Grand Prix,Monza,16,0
+STR,18,Aston Martin,12.0,18.0,Engine,0.0,2022,Italian Grand Prix,Monza,16,0
+ALO,14,Alpine,6.0,19.0,Water pressure,0.0,2022,Italian Grand Prix,Monza,16,0
+VET,5,Aston Martin,11.0,20.0,Engine,0.0,2022,Italian Grand Prix,Monza,16,0
+PER,11,Red Bull Racing,2.0,1.0,Finished,25.0,2022,Singapore Grand Prix,Marina Bay,17,1
+LEC,16,Ferrari,1.0,2.0,Finished,18.0,2022,Singapore Grand Prix,Marina Bay,17,1
+SAI,55,Ferrari,4.0,3.0,Finished,15.0,2022,Singapore Grand Prix,Marina Bay,17,1
+NOR,4,McLaren,6.0,4.0,Finished,12.0,2022,Singapore Grand Prix,Marina Bay,17,1
+RIC,3,McLaren,16.0,5.0,Finished,10.0,2022,Singapore Grand Prix,Marina Bay,17,1
+STR,18,Aston Martin,11.0,6.0,Finished,8.0,2022,Singapore Grand Prix,Marina Bay,17,1
+VER,1,Red Bull Racing,8.0,7.0,Finished,6.0,2022,Singapore Grand Prix,Marina Bay,17,1
+VET,5,Aston Martin,13.0,8.0,Finished,4.0,2022,Singapore Grand Prix,Marina Bay,17,1
+HAM,44,Mercedes,3.0,9.0,Finished,2.0,2022,Singapore Grand Prix,Marina Bay,17,1
+GAS,10,AlphaTauri,7.0,10.0,Finished,1.0,2022,Singapore Grand Prix,Marina Bay,17,1
+BOT,77,Alfa Romeo,15.0,11.0,Finished,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+MAG,20,Haas F1 Team,9.0,12.0,Finished,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+MSC,47,Haas F1 Team,12.0,13.0,+1 Lap,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+RUS,63,Mercedes,,14.0,+2 Laps,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+TSU,22,AlphaTauri,10.0,15.0,Accident,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+OCO,31,Alpine,17.0,16.0,Engine,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+ALB,23,Williams,18.0,17.0,Collision damage,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+ALO,14,Alpine,5.0,18.0,Engine,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+LAT,6,Williams,19.0,19.0,Collision damage,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+ZHO,24,Alfa Romeo,14.0,20.0,Collision,0.0,2022,Singapore Grand Prix,Marina Bay,17,1
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2022,Japanese Grand Prix,Suzuka,18,1
+PER,11,Red Bull Racing,4.0,2.0,Finished,18.0,2022,Japanese Grand Prix,Suzuka,18,1
+LEC,16,Ferrari,2.0,3.0,Finished,15.0,2022,Japanese Grand Prix,Suzuka,18,1
+OCO,31,Alpine,5.0,4.0,Finished,12.0,2022,Japanese Grand Prix,Suzuka,18,1
+HAM,44,Mercedes,6.0,5.0,Finished,10.0,2022,Japanese Grand Prix,Suzuka,18,1
+VET,5,Aston Martin,9.0,6.0,Finished,8.0,2022,Japanese Grand Prix,Suzuka,18,1
+ALO,14,Alpine,7.0,7.0,Finished,6.0,2022,Japanese Grand Prix,Suzuka,18,1
+RUS,63,Mercedes,8.0,8.0,Finished,4.0,2022,Japanese Grand Prix,Suzuka,18,1
+LAT,6,Williams,20.0,9.0,Finished,2.0,2022,Japanese Grand Prix,Suzuka,18,1
+NOR,4,McLaren,10.0,10.0,Finished,1.0,2022,Japanese Grand Prix,Suzuka,18,1
+RIC,3,McLaren,11.0,11.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+STR,18,Aston Martin,19.0,12.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+TSU,22,AlphaTauri,13.0,13.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+MAG,20,Haas F1 Team,18.0,14.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+BOT,77,Alfa Romeo,12.0,15.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+ZHO,24,Alfa Romeo,14.0,16.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+MSC,47,Haas F1 Team,15.0,17.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+GAS,10,AlphaTauri,17.0,18.0,Finished,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+SAI,55,Ferrari,3.0,19.0,Accident,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+ALB,23,Williams,16.0,20.0,Hydraulics,0.0,2022,Japanese Grand Prix,Suzuka,18,1
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2022,United States Grand Prix,Austin,19,0
+HAM,44,Mercedes,3.0,2.0,Finished,18.0,2022,United States Grand Prix,Austin,19,0
+LEC,16,Ferrari,12.0,3.0,Finished,15.0,2022,United States Grand Prix,Austin,19,0
+PER,11,Red Bull Racing,9.0,4.0,Finished,12.0,2022,United States Grand Prix,Austin,19,0
+RUS,63,Mercedes,4.0,5.0,Finished,11.0,2022,United States Grand Prix,Austin,19,0
+NOR,4,McLaren,6.0,6.0,Finished,8.0,2022,United States Grand Prix,Austin,19,0
+ALO,14,Alpine,14.0,7.0,Finished,6.0,2022,United States Grand Prix,Austin,19,0
+VET,5,Aston Martin,10.0,8.0,Finished,4.0,2022,United States Grand Prix,Austin,19,0
+MAG,20,Haas F1 Team,13.0,9.0,Finished,2.0,2022,United States Grand Prix,Austin,19,0
+TSU,22,AlphaTauri,19.0,10.0,Finished,1.0,2022,United States Grand Prix,Austin,19,0
+OCO,31,Alpine,,11.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+ZHO,24,Alfa Romeo,18.0,12.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+ALB,23,Williams,8.0,13.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+GAS,10,AlphaTauri,11.0,14.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+MSC,47,Haas F1 Team,16.0,15.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+RIC,3,McLaren,15.0,16.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+LAT,6,Williams,17.0,17.0,Finished,0.0,2022,United States Grand Prix,Austin,19,0
+STR,18,Aston Martin,5.0,18.0,Collision,0.0,2022,United States Grand Prix,Austin,19,0
+BOT,77,Alfa Romeo,7.0,19.0,Spun off,0.0,2022,United States Grand Prix,Austin,19,0
+SAI,55,Ferrari,1.0,20.0,Collision damage,0.0,2022,United States Grand Prix,Austin,19,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2022,Mexico City Grand Prix,Mexico City,20,0
+HAM,44,Mercedes,3.0,2.0,Finished,18.0,2022,Mexico City Grand Prix,Mexico City,20,0
+PER,11,Red Bull Racing,4.0,3.0,Finished,15.0,2022,Mexico City Grand Prix,Mexico City,20,0
+RUS,63,Mercedes,2.0,4.0,Finished,13.0,2022,Mexico City Grand Prix,Mexico City,20,0
+SAI,55,Ferrari,5.0,5.0,Finished,10.0,2022,Mexico City Grand Prix,Mexico City,20,0
+LEC,16,Ferrari,7.0,6.0,Finished,8.0,2022,Mexico City Grand Prix,Mexico City,20,0
+RIC,3,McLaren,11.0,7.0,+1 Lap,6.0,2022,Mexico City Grand Prix,Mexico City,20,0
+OCO,31,Alpine,10.0,8.0,+1 Lap,4.0,2022,Mexico City Grand Prix,Mexico City,20,0
+NOR,4,McLaren,8.0,9.0,+1 Lap,2.0,2022,Mexico City Grand Prix,Mexico City,20,0
+BOT,77,Alfa Romeo,6.0,10.0,+1 Lap,1.0,2022,Mexico City Grand Prix,Mexico City,20,0
+GAS,10,AlphaTauri,14.0,11.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+ALB,23,Williams,17.0,12.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+ZHO,24,Alfa Romeo,12.0,13.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+VET,5,Aston Martin,16.0,14.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+STR,18,Aston Martin,20.0,15.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+MSC,47,Haas F1 Team,15.0,16.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+MAG,20,Haas F1 Team,19.0,17.0,+1 Lap,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+LAT,6,Williams,18.0,18.0,+2 Laps,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+ALO,14,Alpine,9.0,19.0,Engine,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+TSU,22,AlphaTauri,13.0,20.0,Collision damage,0.0,2022,Mexico City Grand Prix,Mexico City,20,0
+RUS,63,Mercedes,1.0,1.0,Finished,26.0,2022,São Paulo Grand Prix,São Paulo,21,0
+HAM,44,Mercedes,2.0,2.0,Finished,18.0,2022,São Paulo Grand Prix,São Paulo,21,0
+SAI,55,Ferrari,7.0,3.0,Finished,15.0,2022,São Paulo Grand Prix,São Paulo,21,0
+LEC,16,Ferrari,5.0,4.0,Finished,12.0,2022,São Paulo Grand Prix,São Paulo,21,0
+ALO,14,Alpine,17.0,5.0,Finished,10.0,2022,São Paulo Grand Prix,São Paulo,21,0
+VER,1,Red Bull Racing,3.0,6.0,Finished,8.0,2022,São Paulo Grand Prix,São Paulo,21,0
+PER,11,Red Bull Racing,4.0,7.0,Finished,6.0,2022,São Paulo Grand Prix,São Paulo,21,0
+OCO,31,Alpine,16.0,8.0,Finished,4.0,2022,São Paulo Grand Prix,São Paulo,21,0
+BOT,77,Alfa Romeo,14.0,9.0,Finished,2.0,2022,São Paulo Grand Prix,São Paulo,21,0
+STR,18,Aston Martin,15.0,10.0,Finished,1.0,2022,São Paulo Grand Prix,São Paulo,21,0
+VET,5,Aston Martin,9.0,11.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+ZHO,24,Alfa Romeo,13.0,12.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+MSC,47,Haas F1 Team,12.0,13.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+GAS,10,AlphaTauri,10.0,14.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+ALB,23,Williams,19.0,15.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+LAT,6,Williams,18.0,16.0,Finished,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+TSU,22,AlphaTauri,,17.0,+1 Lap,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+NOR,4,McLaren,6.0,18.0,Gearbox,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+MAG,20,Haas F1 Team,8.0,19.0,Collision,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+RIC,3,McLaren,11.0,20.0,Collision,0.0,2022,São Paulo Grand Prix,São Paulo,21,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+LEC,16,Ferrari,3.0,2.0,Finished,18.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+PER,11,Red Bull Racing,2.0,3.0,Finished,15.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+SAI,55,Ferrari,4.0,4.0,Finished,12.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+RUS,63,Mercedes,6.0,5.0,Finished,10.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+NOR,4,McLaren,7.0,6.0,Finished,9.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+OCO,31,Alpine,8.0,7.0,Finished,6.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+STR,18,Aston Martin,14.0,8.0,Finished,4.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+RIC,3,McLaren,13.0,9.0,Finished,2.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+VET,5,Aston Martin,9.0,10.0,Finished,1.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+TSU,22,AlphaTauri,11.0,11.0,Finished,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+ZHO,24,Alfa Romeo,15.0,12.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+ALB,23,Williams,19.0,13.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+GAS,10,AlphaTauri,17.0,14.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+BOT,77,Alfa Romeo,18.0,15.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+MSC,47,Haas F1 Team,12.0,16.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+MAG,20,Haas F1 Team,16.0,17.0,+1 Lap,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+HAM,44,Mercedes,5.0,18.0,Hydraulics,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+LAT,6,Williams,20.0,19.0,Collision damage,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+ALO,14,Alpine,10.0,20.0,Water leak,0.0,2022,Abu Dhabi Grand Prix,Yas Island,22,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Bahrain Grand Prix,Sakhir,1,0
+PER,11,Red Bull Racing,2.0,2.0,Finished,18.0,2023,Bahrain Grand Prix,Sakhir,1,0
+ALO,14,Aston Martin,5.0,3.0,Finished,15.0,2023,Bahrain Grand Prix,Sakhir,1,0
+SAI,55,Ferrari,4.0,4.0,Finished,12.0,2023,Bahrain Grand Prix,Sakhir,1,0
+HAM,44,Mercedes,7.0,5.0,Finished,10.0,2023,Bahrain Grand Prix,Sakhir,1,0
+STR,18,Aston Martin,8.0,6.0,Finished,8.0,2023,Bahrain Grand Prix,Sakhir,1,0
+RUS,63,Mercedes,6.0,7.0,Finished,6.0,2023,Bahrain Grand Prix,Sakhir,1,0
+BOT,77,Alfa Romeo,12.0,8.0,Finished,4.0,2023,Bahrain Grand Prix,Sakhir,1,0
+GAS,10,Alpine,20.0,9.0,Finished,2.0,2023,Bahrain Grand Prix,Sakhir,1,0
+ALB,23,Williams,15.0,10.0,Finished,1.0,2023,Bahrain Grand Prix,Sakhir,1,0
+TSU,22,AlphaTauri,14.0,11.0,Finished,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+SAR,2,Williams,16.0,12.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+MAG,20,Haas F1 Team,17.0,13.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+DEV,21,AlphaTauri,19.0,14.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+HUL,27,Haas F1 Team,10.0,15.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+ZHO,24,Alfa Romeo,13.0,16.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+NOR,4,McLaren,11.0,17.0,Lapped,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+OCO,31,Alpine,9.0,18.0,Retired,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+LEC,16,Ferrari,3.0,19.0,Retired,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+PIA,81,McLaren,18.0,20.0,Retired,0.0,2023,Bahrain Grand Prix,Sakhir,1,0
+PER,11,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+VER,1,Red Bull Racing,15.0,2.0,Finished,19.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+ALO,14,Aston Martin,2.0,3.0,Finished,15.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+RUS,63,Mercedes,3.0,4.0,Finished,12.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+HAM,44,Mercedes,7.0,5.0,Finished,10.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+SAI,55,Ferrari,4.0,6.0,Finished,8.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+LEC,16,Ferrari,12.0,7.0,Finished,6.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+OCO,31,Alpine,6.0,8.0,Finished,4.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+GAS,10,Alpine,9.0,9.0,Finished,2.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+MAG,20,Haas F1 Team,13.0,10.0,Finished,1.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+TSU,22,AlphaTauri,16.0,11.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+HUL,27,Haas F1 Team,10.0,12.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+ZHO,24,Alfa Romeo,11.0,13.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+DEV,21,AlphaTauri,18.0,14.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+PIA,81,McLaren,8.0,15.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+SAR,2,Williams,20.0,16.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+NOR,4,McLaren,19.0,17.0,Finished,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+BOT,77,Alfa Romeo,14.0,18.0,Lapped,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+ALB,23,Williams,17.0,19.0,Retired,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+STR,18,Aston Martin,5.0,20.0,Retired,0.0,2023,Saudi Arabian Grand Prix,Jeddah,2,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Australian Grand Prix,Melbourne,3,0
+HAM,44,Mercedes,3.0,2.0,Finished,18.0,2023,Australian Grand Prix,Melbourne,3,0
+ALO,14,Aston Martin,4.0,3.0,Finished,15.0,2023,Australian Grand Prix,Melbourne,3,0
+STR,18,Aston Martin,6.0,4.0,Finished,12.0,2023,Australian Grand Prix,Melbourne,3,0
+PER,11,Red Bull Racing,20.0,5.0,Finished,11.0,2023,Australian Grand Prix,Melbourne,3,0
+NOR,4,McLaren,13.0,6.0,Finished,8.0,2023,Australian Grand Prix,Melbourne,3,0
+HUL,27,Haas F1 Team,10.0,7.0,Finished,6.0,2023,Australian Grand Prix,Melbourne,3,0
+PIA,81,McLaren,16.0,8.0,Finished,4.0,2023,Australian Grand Prix,Melbourne,3,0
+ZHO,24,Alfa Romeo,17.0,9.0,Finished,2.0,2023,Australian Grand Prix,Melbourne,3,0
+TSU,22,AlphaTauri,12.0,10.0,Finished,1.0,2023,Australian Grand Prix,Melbourne,3,0
+BOT,77,Alfa Romeo,19.0,11.0,Finished,0.0,2023,Australian Grand Prix,Melbourne,3,0
+SAI,55,Ferrari,5.0,12.0,Finished,0.0,2023,Australian Grand Prix,Melbourne,3,0
+GAS,10,Alpine,9.0,13.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+OCO,31,Alpine,11.0,14.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+DEV,21,AlphaTauri,15.0,15.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+SAR,2,Williams,18.0,16.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+MAG,20,Haas F1 Team,14.0,17.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+RUS,63,Mercedes,2.0,18.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+ALB,23,Williams,8.0,19.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+LEC,16,Ferrari,7.0,20.0,Retired,0.0,2023,Australian Grand Prix,Melbourne,3,0
+PER,11,Red Bull Racing,3.0,1.0,Finished,25.0,2023,Azerbaijan Grand Prix,Baku,4,0
+VER,1,Red Bull Racing,2.0,2.0,Finished,18.0,2023,Azerbaijan Grand Prix,Baku,4,0
+LEC,16,Ferrari,1.0,3.0,Finished,15.0,2023,Azerbaijan Grand Prix,Baku,4,0
+ALO,14,Aston Martin,6.0,4.0,Finished,12.0,2023,Azerbaijan Grand Prix,Baku,4,0
+SAI,55,Ferrari,4.0,5.0,Finished,10.0,2023,Azerbaijan Grand Prix,Baku,4,0
+HAM,44,Mercedes,5.0,6.0,Finished,8.0,2023,Azerbaijan Grand Prix,Baku,4,0
+STR,18,Aston Martin,9.0,7.0,Finished,6.0,2023,Azerbaijan Grand Prix,Baku,4,0
+RUS,63,Mercedes,11.0,8.0,Finished,5.0,2023,Azerbaijan Grand Prix,Baku,4,0
+NOR,4,McLaren,7.0,9.0,Finished,2.0,2023,Azerbaijan Grand Prix,Baku,4,0
+TSU,22,AlphaTauri,8.0,10.0,Finished,1.0,2023,Azerbaijan Grand Prix,Baku,4,0
+PIA,81,McLaren,10.0,11.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+ALB,23,Williams,12.0,12.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+MAG,20,Haas F1 Team,16.0,13.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+GAS,10,Alpine,17.0,14.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+OCO,31,Alpine,19.0,15.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+SAR,2,Williams,14.0,16.0,Finished,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+HUL,27,Haas F1 Team,20.0,17.0,Lapped,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+BOT,77,Alfa Romeo,13.0,18.0,Lapped,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+ZHO,24,Alfa Romeo,15.0,19.0,Retired,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+DEV,21,AlphaTauri,18.0,20.0,Retired,0.0,2023,Azerbaijan Grand Prix,Baku,4,0
+VER,1,Red Bull Racing,9.0,1.0,Finished,26.0,2023,Miami Grand Prix,Miami,5,0
+PER,11,Red Bull Racing,1.0,2.0,Finished,18.0,2023,Miami Grand Prix,Miami,5,0
+ALO,14,Aston Martin,2.0,3.0,Finished,15.0,2023,Miami Grand Prix,Miami,5,0
+RUS,63,Mercedes,6.0,4.0,Finished,12.0,2023,Miami Grand Prix,Miami,5,0
+SAI,55,Ferrari,3.0,5.0,Finished,10.0,2023,Miami Grand Prix,Miami,5,0
+HAM,44,Mercedes,13.0,6.0,Finished,8.0,2023,Miami Grand Prix,Miami,5,0
+LEC,16,Ferrari,7.0,7.0,Finished,6.0,2023,Miami Grand Prix,Miami,5,0
+GAS,10,Alpine,5.0,8.0,Finished,4.0,2023,Miami Grand Prix,Miami,5,0
+OCO,31,Alpine,8.0,9.0,Finished,2.0,2023,Miami Grand Prix,Miami,5,0
+MAG,20,Haas F1 Team,4.0,10.0,Finished,1.0,2023,Miami Grand Prix,Miami,5,0
+TSU,22,AlphaTauri,17.0,11.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+STR,18,Aston Martin,18.0,12.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+BOT,77,Alfa Romeo,10.0,13.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+ALB,23,Williams,11.0,14.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+HUL,27,Haas F1 Team,12.0,15.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+ZHO,24,Alfa Romeo,14.0,16.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+NOR,4,McLaren,16.0,17.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+DEV,21,AlphaTauri,15.0,18.0,Finished,0.0,2023,Miami Grand Prix,Miami,5,0
+PIA,81,McLaren,19.0,19.0,Lapped,0.0,2023,Miami Grand Prix,Miami,5,0
+SAR,2,Williams,20.0,20.0,Lapped,0.0,2023,Miami Grand Prix,Miami,5,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Monaco Grand Prix,Monaco,6,1
+ALO,14,Aston Martin,2.0,2.0,Finished,18.0,2023,Monaco Grand Prix,Monaco,6,1
+OCO,31,Alpine,3.0,3.0,Finished,15.0,2023,Monaco Grand Prix,Monaco,6,1
+HAM,44,Mercedes,5.0,4.0,Finished,13.0,2023,Monaco Grand Prix,Monaco,6,1
+RUS,63,Mercedes,8.0,5.0,Finished,10.0,2023,Monaco Grand Prix,Monaco,6,1
+LEC,16,Ferrari,6.0,6.0,Finished,8.0,2023,Monaco Grand Prix,Monaco,6,1
+GAS,10,Alpine,7.0,7.0,Finished,6.0,2023,Monaco Grand Prix,Monaco,6,1
+SAI,55,Ferrari,4.0,8.0,Finished,4.0,2023,Monaco Grand Prix,Monaco,6,1
+NOR,4,McLaren,10.0,9.0,Lapped,2.0,2023,Monaco Grand Prix,Monaco,6,1
+PIA,81,McLaren,11.0,10.0,Lapped,1.0,2023,Monaco Grand Prix,Monaco,6,1
+BOT,77,Alfa Romeo,15.0,11.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+DEV,21,AlphaTauri,12.0,12.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+ZHO,24,Alfa Romeo,19.0,13.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+ALB,23,Williams,13.0,14.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+TSU,22,AlphaTauri,9.0,15.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+PER,11,Red Bull Racing,20.0,16.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+HUL,27,Haas F1 Team,18.0,17.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+SAR,2,Williams,16.0,18.0,Lapped,0.0,2023,Monaco Grand Prix,Monaco,6,1
+MAG,20,Haas F1 Team,17.0,19.0,Retired,0.0,2023,Monaco Grand Prix,Monaco,6,1
+STR,18,Aston Martin,14.0,20.0,Retired,0.0,2023,Monaco Grand Prix,Monaco,6,1
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,Spanish Grand Prix,Barcelona,7,0
+HAM,44,Mercedes,4.0,2.0,Finished,18.0,2023,Spanish Grand Prix,Barcelona,7,0
+RUS,63,Mercedes,12.0,3.0,Finished,15.0,2023,Spanish Grand Prix,Barcelona,7,0
+PER,11,Red Bull Racing,11.0,4.0,Finished,12.0,2023,Spanish Grand Prix,Barcelona,7,0
+SAI,55,Ferrari,2.0,5.0,Finished,10.0,2023,Spanish Grand Prix,Barcelona,7,0
+STR,18,Aston Martin,5.0,6.0,Finished,8.0,2023,Spanish Grand Prix,Barcelona,7,0
+ALO,14,Aston Martin,8.0,7.0,Finished,6.0,2023,Spanish Grand Prix,Barcelona,7,0
+OCO,31,Alpine,6.0,8.0,Finished,4.0,2023,Spanish Grand Prix,Barcelona,7,0
+ZHO,24,Alfa Romeo,13.0,9.0,Finished,2.0,2023,Spanish Grand Prix,Barcelona,7,0
+GAS,10,Alpine,10.0,10.0,Finished,1.0,2023,Spanish Grand Prix,Barcelona,7,0
+LEC,16,Ferrari,19.0,11.0,Finished,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+TSU,22,AlphaTauri,15.0,12.0,Finished,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+PIA,81,McLaren,9.0,13.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+DEV,21,AlphaTauri,14.0,14.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+HUL,27,Haas F1 Team,7.0,15.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+ALB,23,Williams,18.0,16.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+NOR,4,McLaren,3.0,17.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+MAG,20,Haas F1 Team,17.0,18.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+BOT,77,Alfa Romeo,16.0,19.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+SAR,2,Williams,20.0,20.0,Lapped,0.0,2023,Spanish Grand Prix,Barcelona,7,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Canadian Grand Prix,Montréal,8,0
+ALO,14,Aston Martin,2.0,2.0,Finished,18.0,2023,Canadian Grand Prix,Montréal,8,0
+HAM,44,Mercedes,3.0,3.0,Finished,15.0,2023,Canadian Grand Prix,Montréal,8,0
+LEC,16,Ferrari,10.0,4.0,Finished,12.0,2023,Canadian Grand Prix,Montréal,8,0
+SAI,55,Ferrari,11.0,5.0,Finished,10.0,2023,Canadian Grand Prix,Montréal,8,0
+PER,11,Red Bull Racing,12.0,6.0,Finished,9.0,2023,Canadian Grand Prix,Montréal,8,0
+ALB,23,Williams,9.0,7.0,Finished,6.0,2023,Canadian Grand Prix,Montréal,8,0
+OCO,31,Alpine,6.0,8.0,Finished,4.0,2023,Canadian Grand Prix,Montréal,8,0
+STR,18,Aston Martin,16.0,9.0,Finished,2.0,2023,Canadian Grand Prix,Montréal,8,0
+BOT,77,Alfa Romeo,14.0,10.0,Finished,1.0,2023,Canadian Grand Prix,Montréal,8,0
+PIA,81,McLaren,8.0,11.0,Finished,0.0,2023,Canadian Grand Prix,Montréal,8,0
+GAS,10,Alpine,15.0,12.0,Finished,0.0,2023,Canadian Grand Prix,Montréal,8,0
+NOR,4,McLaren,7.0,13.0,Finished,0.0,2023,Canadian Grand Prix,Montréal,8,0
+TSU,22,AlphaTauri,19.0,14.0,Finished,0.0,2023,Canadian Grand Prix,Montréal,8,0
+HUL,27,Haas F1 Team,5.0,15.0,Lapped,0.0,2023,Canadian Grand Prix,Montréal,8,0
+ZHO,24,Alfa Romeo,20.0,16.0,Lapped,0.0,2023,Canadian Grand Prix,Montréal,8,0
+MAG,20,Haas F1 Team,13.0,17.0,Lapped,0.0,2023,Canadian Grand Prix,Montréal,8,0
+DEV,21,AlphaTauri,17.0,18.0,Lapped,0.0,2023,Canadian Grand Prix,Montréal,8,0
+RUS,63,Mercedes,4.0,19.0,Retired,0.0,2023,Canadian Grand Prix,Montréal,8,0
+SAR,2,Williams,18.0,20.0,Retired,0.0,2023,Canadian Grand Prix,Montréal,8,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,Austrian Grand Prix,Spielberg,9,0
+LEC,16,Ferrari,2.0,2.0,Finished,18.0,2023,Austrian Grand Prix,Spielberg,9,0
+PER,11,Red Bull Racing,15.0,3.0,Finished,15.0,2023,Austrian Grand Prix,Spielberg,9,0
+NOR,4,McLaren,4.0,4.0,Finished,12.0,2023,Austrian Grand Prix,Spielberg,9,0
+ALO,14,Aston Martin,7.0,5.0,Finished,10.0,2023,Austrian Grand Prix,Spielberg,9,0
+SAI,55,Ferrari,3.0,6.0,Finished,8.0,2023,Austrian Grand Prix,Spielberg,9,0
+RUS,63,Mercedes,11.0,7.0,Finished,6.0,2023,Austrian Grand Prix,Spielberg,9,0
+HAM,44,Mercedes,5.0,8.0,Finished,4.0,2023,Austrian Grand Prix,Spielberg,9,0
+STR,18,Aston Martin,6.0,9.0,Finished,2.0,2023,Austrian Grand Prix,Spielberg,9,0
+GAS,10,Alpine,9.0,10.0,Finished,1.0,2023,Austrian Grand Prix,Spielberg,9,0
+ALB,23,Williams,10.0,11.0,Finished,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+ZHO,24,Alfa Romeo,17.0,12.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+SAR,2,Williams,18.0,13.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+OCO,31,Alpine,12.0,14.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+BOT,77,Alfa Romeo,14.0,15.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+PIA,81,McLaren,13.0,16.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+DEV,21,AlphaTauri,20.0,17.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+MAG,20,Haas F1 Team,19.0,18.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+TSU,22,AlphaTauri,16.0,19.0,Lapped,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+HUL,27,Haas F1 Team,8.0,20.0,Retired,0.0,2023,Austrian Grand Prix,Spielberg,9,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,British Grand Prix,Silverstone,10,0
+NOR,4,McLaren,2.0,2.0,Finished,18.0,2023,British Grand Prix,Silverstone,10,0
+HAM,44,Mercedes,7.0,3.0,Finished,15.0,2023,British Grand Prix,Silverstone,10,0
+PIA,81,McLaren,3.0,4.0,Finished,12.0,2023,British Grand Prix,Silverstone,10,0
+RUS,63,Mercedes,6.0,5.0,Finished,10.0,2023,British Grand Prix,Silverstone,10,0
+PER,11,Red Bull Racing,15.0,6.0,Finished,8.0,2023,British Grand Prix,Silverstone,10,0
+ALO,14,Aston Martin,9.0,7.0,Finished,6.0,2023,British Grand Prix,Silverstone,10,0
+ALB,23,Williams,8.0,8.0,Finished,4.0,2023,British Grand Prix,Silverstone,10,0
+LEC,16,Ferrari,4.0,9.0,Finished,2.0,2023,British Grand Prix,Silverstone,10,0
+SAI,55,Ferrari,5.0,10.0,Finished,1.0,2023,British Grand Prix,Silverstone,10,0
+SAR,2,Williams,14.0,11.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+BOT,77,Alfa Romeo,20.0,12.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+HUL,27,Haas F1 Team,11.0,13.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+STR,18,Aston Martin,12.0,14.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+ZHO,24,Alfa Romeo,17.0,15.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+TSU,22,AlphaTauri,16.0,16.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+DEV,21,AlphaTauri,18.0,17.0,Finished,0.0,2023,British Grand Prix,Silverstone,10,0
+GAS,10,Alpine,10.0,18.0,Retired,0.0,2023,British Grand Prix,Silverstone,10,0
+MAG,20,Haas F1 Team,19.0,19.0,Retired,0.0,2023,British Grand Prix,Silverstone,10,0
+OCO,31,Alpine,13.0,20.0,Retired,0.0,2023,British Grand Prix,Silverstone,10,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,26.0,2023,Hungarian Grand Prix,Budapest,11,0
+NOR,4,McLaren,3.0,2.0,Finished,18.0,2023,Hungarian Grand Prix,Budapest,11,0
+PER,11,Red Bull Racing,9.0,3.0,Finished,15.0,2023,Hungarian Grand Prix,Budapest,11,0
+HAM,44,Mercedes,1.0,4.0,Finished,12.0,2023,Hungarian Grand Prix,Budapest,11,0
+PIA,81,McLaren,4.0,5.0,Finished,10.0,2023,Hungarian Grand Prix,Budapest,11,0
+RUS,63,Mercedes,18.0,6.0,Finished,8.0,2023,Hungarian Grand Prix,Budapest,11,0
+LEC,16,Ferrari,6.0,7.0,Finished,6.0,2023,Hungarian Grand Prix,Budapest,11,0
+SAI,55,Ferrari,11.0,8.0,Finished,4.0,2023,Hungarian Grand Prix,Budapest,11,0
+ALO,14,Aston Martin,8.0,9.0,Finished,2.0,2023,Hungarian Grand Prix,Budapest,11,0
+STR,18,Aston Martin,14.0,10.0,Lapped,1.0,2023,Hungarian Grand Prix,Budapest,11,0
+ALB,23,Williams,16.0,11.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+BOT,77,Alfa Romeo,7.0,12.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+RIC,3,AlphaTauri,13.0,13.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+HUL,27,Haas F1 Team,10.0,14.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+TSU,22,AlphaTauri,17.0,15.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+ZHO,24,Alfa Romeo,5.0,16.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+MAG,20,Haas F1 Team,19.0,17.0,Lapped,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+SAR,2,Williams,20.0,18.0,Retired,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+OCO,31,Alpine,12.0,19.0,Retired,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+GAS,10,Alpine,15.0,20.0,Retired,0.0,2023,Hungarian Grand Prix,Budapest,11,0
+VER,1,Red Bull Racing,6.0,1.0,Finished,25.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+PER,11,Red Bull Racing,2.0,2.0,Finished,18.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+LEC,16,Ferrari,1.0,3.0,Finished,15.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+HAM,44,Mercedes,3.0,4.0,Finished,13.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+ALO,14,Aston Martin,9.0,5.0,Finished,10.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+RUS,63,Mercedes,8.0,6.0,Finished,8.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+NOR,4,McLaren,7.0,7.0,Finished,6.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+OCO,31,Alpine,14.0,8.0,Finished,4.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+STR,18,Aston Martin,10.0,9.0,Finished,2.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+TSU,22,AlphaTauri,11.0,10.0,Finished,1.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+GAS,10,Alpine,12.0,11.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+BOT,77,Alfa Romeo,13.0,12.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+ZHO,24,Alfa Romeo,17.0,13.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+ALB,23,Williams,15.0,14.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+MAG,20,Haas F1 Team,16.0,15.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+RIC,3,AlphaTauri,19.0,16.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+SAR,2,Williams,18.0,17.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+HUL,27,Haas F1 Team,20.0,18.0,Finished,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+SAI,55,Ferrari,4.0,19.0,Retired,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+PIA,81,McLaren,5.0,20.0,Retired,0.0,2023,Belgian Grand Prix,Spa-Francorchamps,12,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,Dutch Grand Prix,Zandvoort,13,1
+ALO,14,Aston Martin,5.0,2.0,Finished,19.0,2023,Dutch Grand Prix,Zandvoort,13,1
+GAS,10,Alpine,12.0,3.0,Finished,15.0,2023,Dutch Grand Prix,Zandvoort,13,1
+PER,11,Red Bull Racing,7.0,4.0,Finished,12.0,2023,Dutch Grand Prix,Zandvoort,13,1
+SAI,55,Ferrari,6.0,5.0,Finished,10.0,2023,Dutch Grand Prix,Zandvoort,13,1
+HAM,44,Mercedes,13.0,6.0,Finished,8.0,2023,Dutch Grand Prix,Zandvoort,13,1
+NOR,4,McLaren,2.0,7.0,Finished,6.0,2023,Dutch Grand Prix,Zandvoort,13,1
+ALB,23,Williams,4.0,8.0,Finished,4.0,2023,Dutch Grand Prix,Zandvoort,13,1
+PIA,81,McLaren,8.0,9.0,Finished,2.0,2023,Dutch Grand Prix,Zandvoort,13,1
+OCO,31,Alpine,16.0,10.0,Finished,1.0,2023,Dutch Grand Prix,Zandvoort,13,1
+STR,18,Aston Martin,11.0,11.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+HUL,27,Haas F1 Team,14.0,12.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+LAW,40,AlphaTauri,19.0,13.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+BOT,77,Alfa Romeo,18.0,14.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+TSU,22,AlphaTauri,17.0,15.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+MAG,20,Haas F1 Team,,16.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+RUS,63,Mercedes,3.0,17.0,Finished,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+ZHO,24,Alfa Romeo,15.0,18.0,Accident,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+LEC,16,Ferrari,9.0,19.0,Undertray,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+SAR,2,Williams,10.0,20.0,Accident,0.0,2023,Dutch Grand Prix,Zandvoort,13,1
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2023,Italian Grand Prix,Monza,14,0
+PER,11,Red Bull Racing,5.0,2.0,Finished,18.0,2023,Italian Grand Prix,Monza,14,0
+SAI,55,Ferrari,1.0,3.0,Finished,15.0,2023,Italian Grand Prix,Monza,14,0
+LEC,16,Ferrari,3.0,4.0,Finished,12.0,2023,Italian Grand Prix,Monza,14,0
+RUS,63,Mercedes,4.0,5.0,Finished,10.0,2023,Italian Grand Prix,Monza,14,0
+HAM,44,Mercedes,8.0,6.0,Finished,8.0,2023,Italian Grand Prix,Monza,14,0
+ALB,23,Williams,6.0,7.0,Finished,6.0,2023,Italian Grand Prix,Monza,14,0
+NOR,4,McLaren,9.0,8.0,Finished,4.0,2023,Italian Grand Prix,Monza,14,0
+ALO,14,Aston Martin,10.0,9.0,Finished,2.0,2023,Italian Grand Prix,Monza,14,0
+BOT,77,Alfa Romeo,14.0,10.0,Finished,1.0,2023,Italian Grand Prix,Monza,14,0
+LAW,40,AlphaTauri,12.0,11.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+PIA,81,McLaren,7.0,12.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+SAR,2,Williams,15.0,13.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+ZHO,24,Alfa Romeo,16.0,14.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+GAS,10,Alpine,17.0,15.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+STR,18,Aston Martin,20.0,16.0,Finished,0.0,2023,Italian Grand Prix,Monza,14,0
+HUL,27,Haas F1 Team,13.0,17.0,Lapped,0.0,2023,Italian Grand Prix,Monza,14,0
+MAG,20,Haas F1 Team,19.0,18.0,Lapped,0.0,2023,Italian Grand Prix,Monza,14,0
+OCO,31,Alpine,18.0,19.0,Retired,0.0,2023,Italian Grand Prix,Monza,14,0
+TSU,22,AlphaTauri,11.0,20.0,Did not start,0.0,2023,Italian Grand Prix,Monza,14,0
+SAI,55,Ferrari,1.0,1.0,Finished,25.0,2023,Singapore Grand Prix,Marina Bay,15,0
+NOR,4,McLaren,4.0,2.0,Finished,18.0,2023,Singapore Grand Prix,Marina Bay,15,0
+HAM,44,Mercedes,5.0,3.0,Finished,16.0,2023,Singapore Grand Prix,Marina Bay,15,0
+LEC,16,Ferrari,3.0,4.0,Finished,12.0,2023,Singapore Grand Prix,Marina Bay,15,0
+VER,1,Red Bull Racing,11.0,5.0,Finished,10.0,2023,Singapore Grand Prix,Marina Bay,15,0
+GAS,10,Alpine,12.0,6.0,Finished,8.0,2023,Singapore Grand Prix,Marina Bay,15,0
+PIA,81,McLaren,17.0,7.0,Finished,6.0,2023,Singapore Grand Prix,Marina Bay,15,0
+PER,11,Red Bull Racing,13.0,8.0,Finished,4.0,2023,Singapore Grand Prix,Marina Bay,15,0
+LAW,40,AlphaTauri,10.0,9.0,Finished,2.0,2023,Singapore Grand Prix,Marina Bay,15,0
+MAG,20,Haas F1 Team,6.0,10.0,Finished,1.0,2023,Singapore Grand Prix,Marina Bay,15,0
+ALB,23,Williams,14.0,11.0,Finished,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+ZHO,24,Alfa Romeo,19.0,12.0,Finished,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+HUL,27,Haas F1 Team,9.0,13.0,Finished,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+SAR,2,Williams,18.0,14.0,Finished,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+ALO,14,Aston Martin,7.0,15.0,Finished,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+RUS,63,Mercedes,2.0,16.0,Retired,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+BOT,77,Alfa Romeo,16.0,17.0,Retired,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+OCO,31,Alpine,8.0,18.0,Retired,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+TSU,22,AlphaTauri,15.0,19.0,Retired,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+STR,18,Aston Martin,,,Withdrew,0.0,2023,Singapore Grand Prix,Marina Bay,15,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,Japanese Grand Prix,Suzuka,16,0
+NOR,4,McLaren,3.0,2.0,Finished,18.0,2023,Japanese Grand Prix,Suzuka,16,0
+PIA,81,McLaren,2.0,3.0,Finished,15.0,2023,Japanese Grand Prix,Suzuka,16,0
+LEC,16,Ferrari,4.0,4.0,Finished,12.0,2023,Japanese Grand Prix,Suzuka,16,0
+HAM,44,Mercedes,7.0,5.0,Finished,10.0,2023,Japanese Grand Prix,Suzuka,16,0
+SAI,55,Ferrari,6.0,6.0,Finished,8.0,2023,Japanese Grand Prix,Suzuka,16,0
+RUS,63,Mercedes,8.0,7.0,Finished,6.0,2023,Japanese Grand Prix,Suzuka,16,0
+ALO,14,Aston Martin,10.0,8.0,Finished,4.0,2023,Japanese Grand Prix,Suzuka,16,0
+OCO,31,Alpine,14.0,9.0,Finished,2.0,2023,Japanese Grand Prix,Suzuka,16,0
+GAS,10,Alpine,12.0,10.0,Finished,1.0,2023,Japanese Grand Prix,Suzuka,16,0
+LAW,40,AlphaTauri,11.0,11.0,Lapped,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+TSU,22,AlphaTauri,9.0,12.0,Lapped,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+ZHO,24,Alfa Romeo,19.0,13.0,Lapped,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+HUL,27,Haas F1 Team,18.0,14.0,Lapped,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+MAG,20,Haas F1 Team,15.0,15.0,Lapped,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+ALB,23,Williams,13.0,16.0,Retired,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+SAR,2,Williams,20.0,17.0,Retired,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+STR,18,Aston Martin,17.0,18.0,Retired,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+PER,11,Red Bull Racing,5.0,19.0,Retired,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+BOT,77,Alfa Romeo,16.0,20.0,Retired,0.0,2023,Japanese Grand Prix,Suzuka,16,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,Qatar Grand Prix,Lusail,17,0
+PIA,81,McLaren,6.0,2.0,Finished,18.0,2023,Qatar Grand Prix,Lusail,17,0
+NOR,4,McLaren,10.0,3.0,Finished,15.0,2023,Qatar Grand Prix,Lusail,17,0
+RUS,63,Mercedes,2.0,4.0,Finished,12.0,2023,Qatar Grand Prix,Lusail,17,0
+LEC,16,Ferrari,5.0,5.0,Finished,10.0,2023,Qatar Grand Prix,Lusail,17,0
+ALO,14,Aston Martin,4.0,6.0,Finished,8.0,2023,Qatar Grand Prix,Lusail,17,0
+OCO,31,Alpine,8.0,7.0,Finished,6.0,2023,Qatar Grand Prix,Lusail,17,0
+BOT,77,Alfa Romeo,9.0,8.0,Finished,4.0,2023,Qatar Grand Prix,Lusail,17,0
+ZHO,24,Alfa Romeo,19.0,9.0,Finished,2.0,2023,Qatar Grand Prix,Lusail,17,0
+PER,11,Red Bull Racing,20.0,10.0,Finished,1.0,2023,Qatar Grand Prix,Lusail,17,0
+STR,18,Aston Martin,16.0,11.0,Finished,0.0,2023,Qatar Grand Prix,Lusail,17,0
+GAS,10,Alpine,7.0,12.0,Finished,0.0,2023,Qatar Grand Prix,Lusail,17,0
+ALB,23,Williams,13.0,13.0,Finished,0.0,2023,Qatar Grand Prix,Lusail,17,0
+MAG,20,Haas F1 Team,18.0,14.0,Lapped,0.0,2023,Qatar Grand Prix,Lusail,17,0
+TSU,22,AlphaTauri,11.0,15.0,Lapped,0.0,2023,Qatar Grand Prix,Lusail,17,0
+HUL,27,Haas F1 Team,14.0,16.0,Lapped,0.0,2023,Qatar Grand Prix,Lusail,17,0
+LAW,40,AlphaTauri,17.0,17.0,Lapped,0.0,2023,Qatar Grand Prix,Lusail,17,0
+SAR,2,Williams,15.0,18.0,Retired,0.0,2023,Qatar Grand Prix,Lusail,17,0
+HAM,44,Mercedes,3.0,19.0,Retired,0.0,2023,Qatar Grand Prix,Lusail,17,0
+SAI,55,Ferrari,12.0,20.0,Did not start,0.0,2023,Qatar Grand Prix,Lusail,17,0
+VER,1,Red Bull Racing,6.0,1.0,Finished,25.0,2023,United States Grand Prix,Austin,18,0
+NOR,4,McLaren,2.0,2.0,Finished,18.0,2023,United States Grand Prix,Austin,18,0
+SAI,55,Ferrari,4.0,3.0,Finished,15.0,2023,United States Grand Prix,Austin,18,0
+PER,11,Red Bull Racing,9.0,4.0,Finished,12.0,2023,United States Grand Prix,Austin,18,0
+RUS,63,Mercedes,5.0,5.0,Finished,10.0,2023,United States Grand Prix,Austin,18,0
+GAS,10,Alpine,7.0,6.0,Finished,8.0,2023,United States Grand Prix,Austin,18,0
+STR,18,Aston Martin,20.0,7.0,Finished,6.0,2023,United States Grand Prix,Austin,18,0
+TSU,22,AlphaTauri,11.0,8.0,Finished,5.0,2023,United States Grand Prix,Austin,18,0
+ALB,23,Williams,15.0,9.0,Finished,2.0,2023,United States Grand Prix,Austin,18,0
+SAR,2,Williams,16.0,10.0,Finished,1.0,2023,United States Grand Prix,Austin,18,0
+HUL,27,Haas F1 Team,18.0,11.0,Finished,0.0,2023,United States Grand Prix,Austin,18,0
+BOT,77,Alfa Romeo,13.0,12.0,Finished,0.0,2023,United States Grand Prix,Austin,18,0
+ZHO,24,Alfa Romeo,12.0,13.0,Lapped,0.0,2023,United States Grand Prix,Austin,18,0
+MAG,20,Haas F1 Team,17.0,14.0,Lapped,0.0,2023,United States Grand Prix,Austin,18,0
+RIC,3,AlphaTauri,14.0,15.0,Lapped,0.0,2023,United States Grand Prix,Austin,18,0
+ALO,14,Aston Martin,19.0,16.0,Retired,0.0,2023,United States Grand Prix,Austin,18,0
+PIA,81,McLaren,10.0,17.0,Retired,0.0,2023,United States Grand Prix,Austin,18,0
+OCO,31,Alpine,8.0,18.0,Retired,0.0,2023,United States Grand Prix,Austin,18,0
+HAM,44,Mercedes,3.0,19.0,Disqualified,0.0,2023,United States Grand Prix,Austin,18,0
+LEC,16,Ferrari,1.0,20.0,Disqualified,0.0,2023,United States Grand Prix,Austin,18,0
+VER,1,Red Bull Racing,3.0,1.0,Finished,25.0,2023,Mexico City Grand Prix,Mexico City,19,0
+HAM,44,Mercedes,6.0,2.0,Finished,19.0,2023,Mexico City Grand Prix,Mexico City,19,0
+LEC,16,Ferrari,1.0,3.0,Finished,15.0,2023,Mexico City Grand Prix,Mexico City,19,0
+SAI,55,Ferrari,2.0,4.0,Finished,12.0,2023,Mexico City Grand Prix,Mexico City,19,0
+NOR,4,McLaren,17.0,5.0,Finished,10.0,2023,Mexico City Grand Prix,Mexico City,19,0
+RUS,63,Mercedes,8.0,6.0,Finished,8.0,2023,Mexico City Grand Prix,Mexico City,19,0
+RIC,3,AlphaTauri,4.0,7.0,Finished,6.0,2023,Mexico City Grand Prix,Mexico City,19,0
+PIA,81,McLaren,7.0,8.0,Finished,4.0,2023,Mexico City Grand Prix,Mexico City,19,0
+ALB,23,Williams,14.0,9.0,Finished,2.0,2023,Mexico City Grand Prix,Mexico City,19,0
+OCO,31,Alpine,15.0,10.0,Finished,1.0,2023,Mexico City Grand Prix,Mexico City,19,0
+GAS,10,Alpine,11.0,11.0,Finished,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+TSU,22,AlphaTauri,18.0,12.0,Finished,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+HUL,27,Haas F1 Team,12.0,13.0,Finished,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+ZHO,24,Alfa Romeo,10.0,14.0,Finished,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+BOT,77,Alfa Romeo,9.0,15.0,Finished,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+SAR,2,Williams,19.0,16.0,Retired,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+STR,18,Aston Martin,,17.0,Collision damage,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+ALO,14,Aston Martin,13.0,18.0,Withdrew,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+MAG,20,Haas F1 Team,16.0,19.0,Accident,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+PER,11,Red Bull Racing,5.0,20.0,Collision damage,0.0,2023,Mexico City Grand Prix,Mexico City,19,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2023,São Paulo Grand Prix,São Paulo,20,0
+NOR,4,McLaren,6.0,2.0,Finished,19.0,2023,São Paulo Grand Prix,São Paulo,20,0
+ALO,14,Aston Martin,4.0,3.0,Finished,15.0,2023,São Paulo Grand Prix,São Paulo,20,0
+PER,11,Red Bull Racing,9.0,4.0,Finished,12.0,2023,São Paulo Grand Prix,São Paulo,20,0
+STR,18,Aston Martin,3.0,5.0,Finished,10.0,2023,São Paulo Grand Prix,São Paulo,20,0
+SAI,55,Ferrari,7.0,6.0,Finished,8.0,2023,São Paulo Grand Prix,São Paulo,20,0
+GAS,10,Alpine,15.0,7.0,Finished,6.0,2023,São Paulo Grand Prix,São Paulo,20,0
+HAM,44,Mercedes,5.0,8.0,Finished,4.0,2023,São Paulo Grand Prix,São Paulo,20,0
+TSU,22,AlphaTauri,16.0,9.0,Finished,2.0,2023,São Paulo Grand Prix,São Paulo,20,0
+OCO,31,Alpine,14.0,10.0,Lapped,1.0,2023,São Paulo Grand Prix,São Paulo,20,0
+SAR,2,Williams,19.0,11.0,Lapped,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+HUL,27,Haas F1 Team,11.0,12.0,Lapped,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+RIC,3,AlphaTauri,17.0,13.0,Lapped,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+PIA,81,McLaren,10.0,14.0,Lapped,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+RUS,63,Mercedes,8.0,15.0,Retired,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+BOT,77,Alfa Romeo,18.0,16.0,Retired,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+ZHO,24,Alfa Romeo,20.0,17.0,Retired,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+MAG,20,Haas F1 Team,12.0,18.0,Retired,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+ALB,23,Williams,13.0,19.0,Retired,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+LEC,16,Ferrari,2.0,20.0,Did not start,0.0,2023,São Paulo Grand Prix,São Paulo,20,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+LEC,16,Ferrari,1.0,2.0,Finished,18.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+PER,11,Red Bull Racing,11.0,3.0,Finished,15.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+OCO,31,Alpine,16.0,4.0,Finished,12.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+STR,18,Aston Martin,19.0,5.0,Finished,10.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+SAI,55,Ferrari,12.0,6.0,Finished,8.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+HAM,44,Mercedes,10.0,7.0,Finished,6.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+RUS,63,Mercedes,3.0,8.0,Finished,4.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+ALO,14,Aston Martin,9.0,9.0,Finished,2.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+PIA,81,McLaren,18.0,10.0,Finished,2.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+GAS,10,Alpine,4.0,11.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+ALB,23,Williams,5.0,12.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+MAG,20,Haas F1 Team,8.0,13.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+RIC,3,AlphaTauri,14.0,14.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+ZHO,24,Alfa Romeo,17.0,15.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+SAR,2,Williams,6.0,16.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+BOT,77,Alfa Romeo,7.0,17.0,Finished,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+TSU,22,AlphaTauri,20.0,18.0,Retired,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+HUL,27,Haas F1 Team,13.0,19.0,Retired,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+NOR,4,McLaren,15.0,20.0,Retired,0.0,2023,Las Vegas Grand Prix,Las Vegas,21,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+LEC,16,Ferrari,2.0,2.0,Finished,18.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+RUS,63,Mercedes,4.0,3.0,Finished,15.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+PER,11,Red Bull Racing,9.0,4.0,Finished,12.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+NOR,4,McLaren,5.0,5.0,Finished,10.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+PIA,81,McLaren,3.0,6.0,Finished,8.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+ALO,14,Aston Martin,7.0,7.0,Finished,6.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+TSU,22,AlphaTauri,6.0,8.0,Finished,4.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+HAM,44,Mercedes,11.0,9.0,Finished,2.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+STR,18,Aston Martin,13.0,10.0,Finished,1.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+RIC,3,AlphaTauri,15.0,11.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+OCO,31,Alpine,12.0,12.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+GAS,10,Alpine,10.0,13.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+ALB,23,Williams,14.0,14.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+HUL,27,Haas F1 Team,8.0,15.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+SAR,2,Williams,20.0,16.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+ZHO,24,Alfa Romeo,19.0,17.0,Finished,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+SAI,55,Ferrari,16.0,18.0,Retired,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+BOT,77,Alfa Romeo,18.0,19.0,Lapped,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+MAG,20,Haas F1 Team,17.0,20.0,Lapped,0.0,2023,Abu Dhabi Grand Prix,Yas Island,22,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2024,Bahrain Grand Prix,Sakhir,1,0
+PER,11,Red Bull Racing,5.0,2.0,Finished,18.0,2024,Bahrain Grand Prix,Sakhir,1,0
+SAI,55,Ferrari,4.0,3.0,Finished,15.0,2024,Bahrain Grand Prix,Sakhir,1,0
+LEC,16,Ferrari,2.0,4.0,Finished,12.0,2024,Bahrain Grand Prix,Sakhir,1,0
+RUS,63,Mercedes,3.0,5.0,Finished,10.0,2024,Bahrain Grand Prix,Sakhir,1,0
+NOR,4,McLaren,7.0,6.0,Finished,8.0,2024,Bahrain Grand Prix,Sakhir,1,0
+HAM,44,Mercedes,9.0,7.0,Finished,6.0,2024,Bahrain Grand Prix,Sakhir,1,0
+PIA,81,McLaren,8.0,8.0,Finished,4.0,2024,Bahrain Grand Prix,Sakhir,1,0
+ALO,14,Aston Martin,6.0,9.0,Finished,2.0,2024,Bahrain Grand Prix,Sakhir,1,0
+STR,18,Aston Martin,12.0,10.0,Finished,1.0,2024,Bahrain Grand Prix,Sakhir,1,0
+ZHO,24,Kick Sauber,17.0,11.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+MAG,20,Haas F1 Team,15.0,12.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+RIC,3,RB,14.0,13.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+TSU,22,RB,11.0,14.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+ALB,23,Williams,13.0,15.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+HUL,27,Haas F1 Team,10.0,16.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+OCO,31,Alpine,19.0,17.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+GAS,10,Alpine,20.0,18.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+BOT,77,Kick Sauber,16.0,19.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+SAR,2,Williams,18.0,20.0,Lapped,0.0,2024,Bahrain Grand Prix,Sakhir,1,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+PER,11,Red Bull Racing,3.0,2.0,Finished,18.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+LEC,16,Ferrari,2.0,3.0,Finished,16.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+PIA,81,McLaren,5.0,4.0,Finished,12.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+ALO,14,Aston Martin,4.0,5.0,Finished,10.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+RUS,63,Mercedes,7.0,6.0,Finished,8.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+BEA,38,Ferrari,11.0,7.0,Finished,6.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+NOR,4,McLaren,6.0,8.0,Finished,4.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+HAM,44,Mercedes,8.0,9.0,Finished,2.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+HUL,27,Haas F1 Team,15.0,10.0,Finished,1.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+ALB,23,Williams,12.0,11.0,Finished,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+MAG,20,Haas F1 Team,13.0,12.0,Finished,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+OCO,31,Alpine,17.0,13.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+SAR,2,Williams,19.0,14.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+TSU,22,RB,9.0,15.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+RIC,3,RB,14.0,16.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+BOT,77,Kick Sauber,16.0,17.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+ZHO,24,Kick Sauber,20.0,18.0,Lapped,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+STR,18,Aston Martin,10.0,19.0,Retired,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+GAS,10,Alpine,18.0,20.0,Retired,0.0,2024,Saudi Arabian Grand Prix,Jeddah,2,0
+SAI,55,Ferrari,2.0,1.0,Finished,25.0,2024,Australian Grand Prix,Melbourne,3,0
+LEC,16,Ferrari,4.0,2.0,Finished,19.0,2024,Australian Grand Prix,Melbourne,3,0
+NOR,4,McLaren,3.0,3.0,Finished,15.0,2024,Australian Grand Prix,Melbourne,3,0
+PIA,81,McLaren,5.0,4.0,Finished,12.0,2024,Australian Grand Prix,Melbourne,3,0
+PER,11,Red Bull Racing,6.0,5.0,Finished,10.0,2024,Australian Grand Prix,Melbourne,3,0
+STR,18,Aston Martin,9.0,6.0,Finished,8.0,2024,Australian Grand Prix,Melbourne,3,0
+TSU,22,RB,8.0,7.0,Finished,6.0,2024,Australian Grand Prix,Melbourne,3,0
+ALO,14,Aston Martin,10.0,8.0,Finished,4.0,2024,Australian Grand Prix,Melbourne,3,0
+HUL,27,Haas F1 Team,16.0,9.0,Finished,2.0,2024,Australian Grand Prix,Melbourne,3,0
+MAG,20,Haas F1 Team,14.0,10.0,Lapped,1.0,2024,Australian Grand Prix,Melbourne,3,0
+ALB,23,Williams,12.0,11.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+RIC,3,RB,18.0,12.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+GAS,10,Alpine,17.0,13.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+BOT,77,Kick Sauber,13.0,14.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+ZHO,24,Kick Sauber,19.0,15.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+OCO,31,Alpine,15.0,16.0,Lapped,0.0,2024,Australian Grand Prix,Melbourne,3,0
+RUS,63,Mercedes,7.0,17.0,Retired,0.0,2024,Australian Grand Prix,Melbourne,3,0
+HAM,44,Mercedes,11.0,18.0,Retired,0.0,2024,Australian Grand Prix,Melbourne,3,0
+VER,1,Red Bull Racing,1.0,19.0,Retired,0.0,2024,Australian Grand Prix,Melbourne,3,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,26.0,2024,Japanese Grand Prix,Suzuka,4,0
+PER,11,Red Bull Racing,2.0,2.0,Finished,18.0,2024,Japanese Grand Prix,Suzuka,4,0
+SAI,55,Ferrari,4.0,3.0,Finished,15.0,2024,Japanese Grand Prix,Suzuka,4,0
+LEC,16,Ferrari,8.0,4.0,Finished,12.0,2024,Japanese Grand Prix,Suzuka,4,0
+NOR,4,McLaren,3.0,5.0,Finished,10.0,2024,Japanese Grand Prix,Suzuka,4,0
+ALO,14,Aston Martin,5.0,6.0,Finished,8.0,2024,Japanese Grand Prix,Suzuka,4,0
+RUS,63,Mercedes,9.0,7.0,Finished,6.0,2024,Japanese Grand Prix,Suzuka,4,0
+PIA,81,McLaren,6.0,8.0,Finished,4.0,2024,Japanese Grand Prix,Suzuka,4,0
+HAM,44,Mercedes,7.0,9.0,Finished,2.0,2024,Japanese Grand Prix,Suzuka,4,0
+TSU,22,RB,10.0,10.0,Lapped,1.0,2024,Japanese Grand Prix,Suzuka,4,0
+HUL,27,Haas F1 Team,12.0,11.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+STR,18,Aston Martin,16.0,12.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+MAG,20,Haas F1 Team,18.0,13.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+BOT,77,Kick Sauber,13.0,14.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+OCO,31,Alpine,15.0,15.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+GAS,10,Alpine,17.0,16.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+SAR,2,Williams,19.0,17.0,Lapped,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+ZHO,24,Kick Sauber,20.0,18.0,Retired,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+RIC,3,RB,11.0,19.0,Retired,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+ALB,23,Williams,14.0,20.0,Retired,0.0,2024,Japanese Grand Prix,Suzuka,4,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2024,Chinese Grand Prix,Shanghai,5,0
+NOR,4,McLaren,4.0,2.0,Finished,18.0,2024,Chinese Grand Prix,Shanghai,5,0
+PER,11,Red Bull Racing,2.0,3.0,Finished,15.0,2024,Chinese Grand Prix,Shanghai,5,0
+LEC,16,Ferrari,6.0,4.0,Finished,12.0,2024,Chinese Grand Prix,Shanghai,5,0
+SAI,55,Ferrari,7.0,5.0,Finished,10.0,2024,Chinese Grand Prix,Shanghai,5,0
+RUS,63,Mercedes,8.0,6.0,Finished,8.0,2024,Chinese Grand Prix,Shanghai,5,0
+ALO,14,Aston Martin,3.0,7.0,Finished,7.0,2024,Chinese Grand Prix,Shanghai,5,0
+PIA,81,McLaren,5.0,8.0,Finished,4.0,2024,Chinese Grand Prix,Shanghai,5,0
+HAM,44,Mercedes,18.0,9.0,Finished,2.0,2024,Chinese Grand Prix,Shanghai,5,0
+HUL,27,Haas F1 Team,9.0,10.0,Finished,1.0,2024,Chinese Grand Prix,Shanghai,5,0
+OCO,31,Alpine,13.0,11.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+ALB,23,Williams,14.0,12.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+GAS,10,Alpine,15.0,13.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+ZHO,24,Kick Sauber,16.0,14.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+STR,18,Aston Martin,11.0,15.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+MAG,20,Haas F1 Team,17.0,16.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+SAR,2,Williams,20.0,17.0,Finished,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+RIC,3,RB,12.0,18.0,Retired,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+TSU,22,RB,19.0,19.0,Retired,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+BOT,77,Kick Sauber,10.0,20.0,Retired,0.0,2024,Chinese Grand Prix,Shanghai,5,0
+NOR,4,McLaren,5.0,1.0,Finished,25.0,2024,Miami Grand Prix,Miami,6,0
+VER,1,Red Bull Racing,1.0,2.0,Finished,18.0,2024,Miami Grand Prix,Miami,6,0
+LEC,16,Ferrari,2.0,3.0,Finished,15.0,2024,Miami Grand Prix,Miami,6,0
+PER,11,Red Bull Racing,4.0,4.0,Finished,12.0,2024,Miami Grand Prix,Miami,6,0
+SAI,55,Ferrari,3.0,5.0,Finished,10.0,2024,Miami Grand Prix,Miami,6,0
+HAM,44,Mercedes,8.0,6.0,Finished,8.0,2024,Miami Grand Prix,Miami,6,0
+TSU,22,RB,10.0,7.0,Finished,6.0,2024,Miami Grand Prix,Miami,6,0
+RUS,63,Mercedes,7.0,8.0,Finished,4.0,2024,Miami Grand Prix,Miami,6,0
+ALO,14,Aston Martin,15.0,9.0,Finished,2.0,2024,Miami Grand Prix,Miami,6,0
+OCO,31,Alpine,13.0,10.0,Finished,1.0,2024,Miami Grand Prix,Miami,6,0
+HUL,27,Haas F1 Team,9.0,11.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+GAS,10,Alpine,12.0,12.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+PIA,81,McLaren,6.0,13.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+ZHO,24,Kick Sauber,19.0,14.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+RIC,3,RB,20.0,15.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+BOT,77,Kick Sauber,16.0,16.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+STR,18,Aston Martin,11.0,17.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+ALB,23,Williams,14.0,18.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+MAG,20,Haas F1 Team,18.0,19.0,Finished,0.0,2024,Miami Grand Prix,Miami,6,0
+SAR,2,Williams,17.0,20.0,Retired,0.0,2024,Miami Grand Prix,Miami,6,0
+VER,1,Red Bull Racing,1.0,1.0,Finished,25.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+NOR,4,McLaren,2.0,2.0,Finished,18.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+LEC,16,Ferrari,3.0,3.0,Finished,15.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+PIA,81,McLaren,5.0,4.0,Finished,12.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+SAI,55,Ferrari,4.0,5.0,Finished,10.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+HAM,44,Mercedes,8.0,6.0,Finished,8.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+RUS,63,Mercedes,6.0,7.0,Finished,7.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+PER,11,Red Bull Racing,11.0,8.0,Finished,4.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+STR,18,Aston Martin,13.0,9.0,Finished,2.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+TSU,22,RB,7.0,10.0,Lapped,1.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+HUL,27,Haas F1 Team,10.0,11.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+MAG,20,Haas F1 Team,18.0,12.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+RIC,3,RB,9.0,13.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+OCO,31,Alpine,12.0,14.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+ZHO,24,Kick Sauber,17.0,15.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+GAS,10,Alpine,15.0,16.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+SAR,2,Williams,19.0,17.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+BOT,77,Kick Sauber,16.0,18.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+ALO,14,Aston Martin,20.0,19.0,Lapped,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+ALB,23,Williams,14.0,20.0,Retired,0.0,2024,Emilia Romagna Grand Prix,Imola,7,0
+LEC,16,Ferrari,1.0,1.0,Finished,25.0,2024,Monaco Grand Prix,Monaco,8,0
+PIA,81,McLaren,2.0,2.0,Finished,18.0,2024,Monaco Grand Prix,Monaco,8,0
+SAI,55,Ferrari,3.0,3.0,Finished,15.0,2024,Monaco Grand Prix,Monaco,8,0
+NOR,4,McLaren,4.0,4.0,Finished,12.0,2024,Monaco Grand Prix,Monaco,8,0
+RUS,63,Mercedes,5.0,5.0,Finished,10.0,2024,Monaco Grand Prix,Monaco,8,0
+VER,1,Red Bull Racing,6.0,6.0,Finished,8.0,2024,Monaco Grand Prix,Monaco,8,0
+HAM,44,Mercedes,7.0,7.0,Finished,7.0,2024,Monaco Grand Prix,Monaco,8,0
+TSU,22,RB,8.0,8.0,Lapped,4.0,2024,Monaco Grand Prix,Monaco,8,0
+ALB,23,Williams,9.0,9.0,Lapped,2.0,2024,Monaco Grand Prix,Monaco,8,0
+GAS,10,Alpine,10.0,10.0,Lapped,1.0,2024,Monaco Grand Prix,Monaco,8,0
+ALO,14,Aston Martin,14.0,11.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+RIC,3,RB,12.0,12.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+BOT,77,Kick Sauber,17.0,13.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+STR,18,Aston Martin,13.0,14.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+SAR,2,Williams,15.0,15.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+ZHO,24,Kick Sauber,18.0,16.0,Lapped,0.0,2024,Monaco Grand Prix,Monaco,8,0
+OCO,31,Alpine,11.0,17.0,Retired,0.0,2024,Monaco Grand Prix,Monaco,8,0
+PER,11,Red Bull Racing,16.0,18.0,Retired,0.0,2024,Monaco Grand Prix,Monaco,8,0
+HUL,27,Haas F1 Team,19.0,19.0,Retired,0.0,2024,Monaco Grand Prix,Monaco,8,0
+MAG,20,Haas F1 Team,20.0,20.0,Retired,0.0,2024,Monaco Grand Prix,Monaco,8,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2024,Canadian Grand Prix,Montréal,9,1
+NOR,4,McLaren,3.0,2.0,Finished,18.0,2024,Canadian Grand Prix,Montréal,9,1
+RUS,63,Mercedes,1.0,3.0,Finished,15.0,2024,Canadian Grand Prix,Montréal,9,1
+HAM,44,Mercedes,7.0,4.0,Finished,13.0,2024,Canadian Grand Prix,Montréal,9,1
+PIA,81,McLaren,4.0,5.0,Finished,10.0,2024,Canadian Grand Prix,Montréal,9,1
+ALO,14,Aston Martin,6.0,6.0,Finished,8.0,2024,Canadian Grand Prix,Montréal,9,1
+STR,18,Aston Martin,9.0,7.0,Finished,6.0,2024,Canadian Grand Prix,Montréal,9,1
+RIC,3,RB,5.0,8.0,Finished,4.0,2024,Canadian Grand Prix,Montréal,9,1
+GAS,10,Alpine,15.0,9.0,Finished,2.0,2024,Canadian Grand Prix,Montréal,9,1
+OCO,31,Alpine,18.0,10.0,Finished,1.0,2024,Canadian Grand Prix,Montréal,9,1
+HUL,27,Haas F1 Team,17.0,11.0,Finished,0.0,2024,Canadian Grand Prix,Montréal,9,1
+MAG,20,Haas F1 Team,14.0,12.0,Finished,0.0,2024,Canadian Grand Prix,Montréal,9,1
+BOT,77,Kick Sauber,19.0,13.0,Finished,0.0,2024,Canadian Grand Prix,Montréal,9,1
+TSU,22,RB,8.0,14.0,Finished,0.0,2024,Canadian Grand Prix,Montréal,9,1
+ZHO,24,Kick Sauber,20.0,15.0,Lapped,0.0,2024,Canadian Grand Prix,Montréal,9,1
+SAI,55,Ferrari,12.0,16.0,Retired,0.0,2024,Canadian Grand Prix,Montréal,9,1
+ALB,23,Williams,10.0,17.0,Retired,0.0,2024,Canadian Grand Prix,Montréal,9,1
+PER,11,Red Bull Racing,16.0,18.0,Retired,0.0,2024,Canadian Grand Prix,Montréal,9,1
+LEC,16,Ferrari,11.0,19.0,Retired,0.0,2024,Canadian Grand Prix,Montréal,9,1
+SAR,2,Williams,13.0,20.0,Retired,0.0,2024,Canadian Grand Prix,Montréal,9,1
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2024,Spanish Grand Prix,Barcelona,10,0
+NOR,4,McLaren,1.0,2.0,Finished,19.0,2024,Spanish Grand Prix,Barcelona,10,0
+HAM,44,Mercedes,3.0,3.0,Finished,15.0,2024,Spanish Grand Prix,Barcelona,10,0
+RUS,63,Mercedes,4.0,4.0,Finished,12.0,2024,Spanish Grand Prix,Barcelona,10,0
+LEC,16,Ferrari,5.0,5.0,Finished,10.0,2024,Spanish Grand Prix,Barcelona,10,0
+SAI,55,Ferrari,6.0,6.0,Finished,8.0,2024,Spanish Grand Prix,Barcelona,10,0
+PIA,81,McLaren,9.0,7.0,Finished,6.0,2024,Spanish Grand Prix,Barcelona,10,0
+PER,11,Red Bull Racing,11.0,8.0,Finished,4.0,2024,Spanish Grand Prix,Barcelona,10,0
+GAS,10,Alpine,7.0,9.0,Finished,2.0,2024,Spanish Grand Prix,Barcelona,10,0
+OCO,31,Alpine,8.0,10.0,Finished,1.0,2024,Spanish Grand Prix,Barcelona,10,0
+HUL,27,Haas F1 Team,13.0,11.0,Finished,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+ALO,14,Aston Martin,10.0,12.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+ZHO,24,Kick Sauber,15.0,13.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+STR,18,Aston Martin,14.0,14.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+RIC,3,RB,18.0,15.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+BOT,77,Kick Sauber,12.0,16.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+MAG,20,Haas F1 Team,16.0,17.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+ALB,23,Williams,20.0,18.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+TSU,22,RB,17.0,19.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+SAR,2,Williams,19.0,20.0,Lapped,0.0,2024,Spanish Grand Prix,Barcelona,10,0
+RUS,63,Mercedes,3.0,1.0,Finished,25.0,2024,Austrian Grand Prix,Spielberg,11,0
+PIA,81,McLaren,7.0,2.0,Finished,18.0,2024,Austrian Grand Prix,Spielberg,11,0
+SAI,55,Ferrari,4.0,3.0,Finished,15.0,2024,Austrian Grand Prix,Spielberg,11,0
+HAM,44,Mercedes,5.0,4.0,Finished,12.0,2024,Austrian Grand Prix,Spielberg,11,0
+VER,1,Red Bull Racing,1.0,5.0,Finished,10.0,2024,Austrian Grand Prix,Spielberg,11,0
+HUL,27,Haas F1 Team,9.0,6.0,Finished,8.0,2024,Austrian Grand Prix,Spielberg,11,0
+PER,11,Red Bull Racing,8.0,7.0,Finished,6.0,2024,Austrian Grand Prix,Spielberg,11,0
+MAG,20,Haas F1 Team,12.0,8.0,Finished,4.0,2024,Austrian Grand Prix,Spielberg,11,0
+RIC,3,RB,11.0,9.0,Finished,2.0,2024,Austrian Grand Prix,Spielberg,11,0
+GAS,10,Alpine,13.0,10.0,Finished,1.0,2024,Austrian Grand Prix,Spielberg,11,0
+LEC,16,Ferrari,6.0,11.0,Finished,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+OCO,31,Alpine,10.0,12.0,Finished,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+STR,18,Aston Martin,17.0,13.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+TSU,22,RB,14.0,14.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+ALB,23,Williams,16.0,15.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+BOT,77,Kick Sauber,18.0,16.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+ZHO,24,Kick Sauber,20.0,17.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+ALO,14,Aston Martin,15.0,18.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+SAR,2,Williams,19.0,19.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+NOR,4,McLaren,2.0,20.0,Lapped,0.0,2024,Austrian Grand Prix,Spielberg,11,0
+HAM,44,Mercedes,2.0,1.0,Finished,25.0,2024,British Grand Prix,Silverstone,12,1
+VER,1,Red Bull Racing,4.0,2.0,Finished,18.0,2024,British Grand Prix,Silverstone,12,1
+NOR,4,McLaren,3.0,3.0,Finished,15.0,2024,British Grand Prix,Silverstone,12,1
+PIA,81,McLaren,5.0,4.0,Finished,12.0,2024,British Grand Prix,Silverstone,12,1
+SAI,55,Ferrari,7.0,5.0,Finished,11.0,2024,British Grand Prix,Silverstone,12,1
+HUL,27,Haas F1 Team,6.0,6.0,Finished,8.0,2024,British Grand Prix,Silverstone,12,1
+STR,18,Aston Martin,8.0,7.0,Finished,6.0,2024,British Grand Prix,Silverstone,12,1
+ALO,14,Aston Martin,10.0,8.0,Finished,4.0,2024,British Grand Prix,Silverstone,12,1
+ALB,23,Williams,9.0,9.0,Finished,2.0,2024,British Grand Prix,Silverstone,12,1
+TSU,22,RB,13.0,10.0,Finished,1.0,2024,British Grand Prix,Silverstone,12,1
+SAR,2,Williams,12.0,11.0,Finished,0.0,2024,British Grand Prix,Silverstone,12,1
+MAG,20,Haas F1 Team,17.0,12.0,Finished,0.0,2024,British Grand Prix,Silverstone,12,1
+RIC,3,RB,15.0,13.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+LEC,16,Ferrari,11.0,14.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+BOT,77,Kick Sauber,16.0,15.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+OCO,31,Alpine,18.0,16.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+PER,11,Red Bull Racing,20.0,17.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+ZHO,24,Kick Sauber,14.0,18.0,Lapped,0.0,2024,British Grand Prix,Silverstone,12,1
+RUS,63,Mercedes,1.0,19.0,Retired,0.0,2024,British Grand Prix,Silverstone,12,1
+GAS,10,Alpine,19.0,20.0,Did not start,0.0,2024,British Grand Prix,Silverstone,12,1
+PIA,81,McLaren,2.0,1.0,Finished,25.0,2024,Hungarian Grand Prix,Budapest,13,0
+NOR,4,McLaren,1.0,2.0,Finished,18.0,2024,Hungarian Grand Prix,Budapest,13,0
+HAM,44,Mercedes,5.0,3.0,Finished,15.0,2024,Hungarian Grand Prix,Budapest,13,0
+LEC,16,Ferrari,6.0,4.0,Finished,12.0,2024,Hungarian Grand Prix,Budapest,13,0
+VER,1,Red Bull Racing,3.0,5.0,Finished,10.0,2024,Hungarian Grand Prix,Budapest,13,0
+SAI,55,Ferrari,4.0,6.0,Finished,8.0,2024,Hungarian Grand Prix,Budapest,13,0
+PER,11,Red Bull Racing,16.0,7.0,Finished,6.0,2024,Hungarian Grand Prix,Budapest,13,0
+RUS,63,Mercedes,17.0,8.0,Finished,5.0,2024,Hungarian Grand Prix,Budapest,13,0
+TSU,22,RB,10.0,9.0,Finished,2.0,2024,Hungarian Grand Prix,Budapest,13,0
+STR,18,Aston Martin,8.0,10.0,Finished,1.0,2024,Hungarian Grand Prix,Budapest,13,0
+ALO,14,Aston Martin,7.0,11.0,Finished,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+RIC,3,RB,9.0,12.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+HUL,27,Haas F1 Team,11.0,13.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+ALB,23,Williams,13.0,14.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+MAG,20,Haas F1 Team,15.0,15.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+BOT,77,Kick Sauber,12.0,16.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+SAR,2,Williams,14.0,17.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+OCO,31,Alpine,19.0,18.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+ZHO,24,Kick Sauber,18.0,19.0,Lapped,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+GAS,10,Alpine,20.0,20.0,Retired,0.0,2024,Hungarian Grand Prix,Budapest,13,0
+HAM,44,Mercedes,3.0,1.0,Finished,25.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+PIA,81,McLaren,5.0,2.0,Finished,18.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+LEC,16,Ferrari,1.0,3.0,Finished,15.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+VER,1,Red Bull Racing,11.0,4.0,Finished,12.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+NOR,4,McLaren,4.0,5.0,Finished,10.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+SAI,55,Ferrari,7.0,6.0,Finished,8.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+PER,11,Red Bull Racing,2.0,7.0,Finished,7.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+ALO,14,Aston Martin,8.0,8.0,Finished,4.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+OCO,31,Alpine,9.0,9.0,Finished,2.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+RIC,3,RB,13.0,10.0,Finished,1.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+STR,18,Aston Martin,15.0,11.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+ALB,23,Williams,10.0,12.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+GAS,10,Alpine,12.0,13.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+MAG,20,Haas F1 Team,17.0,14.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+BOT,77,Kick Sauber,14.0,15.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+TSU,22,RB,20.0,16.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+SAR,2,Williams,18.0,17.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+HUL,27,Haas F1 Team,16.0,18.0,Finished,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+ZHO,24,Kick Sauber,19.0,19.0,Retired,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+RUS,63,Mercedes,6.0,20.0,Disqualified,0.0,2024,Belgian Grand Prix,Spa-Francorchamps,14,0
+NOR,4,McLaren,1.0,1.0,Finished,26.0,2024,Dutch Grand Prix,Zandvoort,15,0
+VER,1,Red Bull Racing,2.0,2.0,Finished,18.0,2024,Dutch Grand Prix,Zandvoort,15,0
+LEC,16,Ferrari,6.0,3.0,Finished,15.0,2024,Dutch Grand Prix,Zandvoort,15,0
+PIA,81,McLaren,3.0,4.0,Finished,12.0,2024,Dutch Grand Prix,Zandvoort,15,0
+SAI,55,Ferrari,10.0,5.0,Finished,10.0,2024,Dutch Grand Prix,Zandvoort,15,0
+PER,11,Red Bull Racing,5.0,6.0,Finished,8.0,2024,Dutch Grand Prix,Zandvoort,15,0
+RUS,63,Mercedes,4.0,7.0,Finished,6.0,2024,Dutch Grand Prix,Zandvoort,15,0
+HAM,44,Mercedes,14.0,8.0,Finished,4.0,2024,Dutch Grand Prix,Zandvoort,15,0
+GAS,10,Alpine,9.0,9.0,Lapped,2.0,2024,Dutch Grand Prix,Zandvoort,15,0
+ALO,14,Aston Martin,7.0,10.0,Lapped,1.0,2024,Dutch Grand Prix,Zandvoort,15,0
+HUL,27,Haas F1 Team,12.0,11.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+RIC,3,RB,13.0,12.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+STR,18,Aston Martin,8.0,13.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+ALB,23,Williams,19.0,14.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+OCO,31,Alpine,15.0,15.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+SAR,2,Williams,18.0,16.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+TSU,22,RB,11.0,17.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+MAG,20,Haas F1 Team,20.0,18.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+BOT,77,Kick Sauber,16.0,19.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+ZHO,24,Kick Sauber,17.0,20.0,Lapped,0.0,2024,Dutch Grand Prix,Zandvoort,15,0
+LEC,16,Ferrari,4.0,1.0,Finished,25.0,2024,Italian Grand Prix,Monza,16,0
+PIA,81,McLaren,2.0,2.0,Finished,18.0,2024,Italian Grand Prix,Monza,16,0
+NOR,4,McLaren,1.0,3.0,Finished,16.0,2024,Italian Grand Prix,Monza,16,0
+SAI,55,Ferrari,5.0,4.0,Finished,12.0,2024,Italian Grand Prix,Monza,16,0
+HAM,44,Mercedes,6.0,5.0,Finished,10.0,2024,Italian Grand Prix,Monza,16,0
+VER,1,Red Bull Racing,7.0,6.0,Finished,8.0,2024,Italian Grand Prix,Monza,16,0
+RUS,63,Mercedes,3.0,7.0,Finished,6.0,2024,Italian Grand Prix,Monza,16,0
+PER,11,Red Bull Racing,8.0,8.0,Finished,4.0,2024,Italian Grand Prix,Monza,16,0
+ALB,23,Williams,9.0,9.0,Finished,2.0,2024,Italian Grand Prix,Monza,16,0
+MAG,20,Haas F1 Team,13.0,10.0,Finished,1.0,2024,Italian Grand Prix,Monza,16,0
+ALO,14,Aston Martin,11.0,11.0,Finished,0.0,2024,Italian Grand Prix,Monza,16,0
+COL,43,Williams,18.0,12.0,Finished,0.0,2024,Italian Grand Prix,Monza,16,0
+RIC,3,RB,12.0,13.0,Finished,0.0,2024,Italian Grand Prix,Monza,16,0
+OCO,31,Alpine,15.0,14.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+GAS,10,Alpine,14.0,15.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+BOT,77,Kick Sauber,19.0,16.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+HUL,27,Haas F1 Team,10.0,17.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+ZHO,24,Kick Sauber,20.0,18.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+STR,18,Aston Martin,17.0,19.0,Lapped,0.0,2024,Italian Grand Prix,Monza,16,0
+TSU,22,RB,16.0,20.0,Retired,0.0,2024,Italian Grand Prix,Monza,16,0
+PIA,81,McLaren,2.0,1.0,Finished,25.0,2024,Azerbaijan Grand Prix,Baku,17,0
+LEC,16,Ferrari,1.0,2.0,Finished,18.0,2024,Azerbaijan Grand Prix,Baku,17,0
+RUS,63,Mercedes,5.0,3.0,Finished,15.0,2024,Azerbaijan Grand Prix,Baku,17,0
+NOR,4,McLaren,15.0,4.0,Finished,13.0,2024,Azerbaijan Grand Prix,Baku,17,0
+VER,1,Red Bull Racing,6.0,5.0,Finished,10.0,2024,Azerbaijan Grand Prix,Baku,17,0
+ALO,14,Aston Martin,7.0,6.0,Finished,8.0,2024,Azerbaijan Grand Prix,Baku,17,0
+ALB,23,Williams,9.0,7.0,Finished,6.0,2024,Azerbaijan Grand Prix,Baku,17,0
+COL,43,Williams,8.0,8.0,Finished,4.0,2024,Azerbaijan Grand Prix,Baku,17,0
+HAM,44,Mercedes,19.0,9.0,Finished,2.0,2024,Azerbaijan Grand Prix,Baku,17,0
+BEA,50,Haas F1 Team,10.0,10.0,Finished,1.0,2024,Azerbaijan Grand Prix,Baku,17,0
+HUL,27,Haas F1 Team,12.0,11.0,Finished,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+GAS,10,Alpine,18.0,12.0,Finished,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+RIC,3,RB,14.0,13.0,Finished,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+ZHO,24,Kick Sauber,17.0,14.0,Finished,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+OCO,31,Alpine,20.0,15.0,Lapped,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+BOT,77,Kick Sauber,16.0,16.0,Lapped,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+PER,11,Red Bull Racing,4.0,17.0,Retired,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+SAI,55,Ferrari,3.0,18.0,Retired,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+STR,18,Aston Martin,13.0,19.0,Retired,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+TSU,22,RB,11.0,20.0,Retired,0.0,2024,Azerbaijan Grand Prix,Baku,17,0
+NOR,4,McLaren,1.0,1.0,Finished,25.0,2024,Singapore Grand Prix,Marina Bay,18,0
+VER,1,Red Bull Racing,2.0,2.0,Finished,18.0,2024,Singapore Grand Prix,Marina Bay,18,0
+PIA,81,McLaren,5.0,3.0,Finished,15.0,2024,Singapore Grand Prix,Marina Bay,18,0
+RUS,63,Mercedes,4.0,4.0,Finished,12.0,2024,Singapore Grand Prix,Marina Bay,18,0
+LEC,16,Ferrari,9.0,5.0,Finished,10.0,2024,Singapore Grand Prix,Marina Bay,18,0
+HAM,44,Mercedes,3.0,6.0,Finished,8.0,2024,Singapore Grand Prix,Marina Bay,18,0
+SAI,55,Ferrari,10.0,7.0,Finished,6.0,2024,Singapore Grand Prix,Marina Bay,18,0
+ALO,14,Aston Martin,7.0,8.0,Lapped,4.0,2024,Singapore Grand Prix,Marina Bay,18,0
+HUL,27,Haas F1 Team,6.0,9.0,Lapped,2.0,2024,Singapore Grand Prix,Marina Bay,18,0
+PER,11,Red Bull Racing,13.0,10.0,Lapped,1.0,2024,Singapore Grand Prix,Marina Bay,18,0
+COL,43,Williams,12.0,11.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+TSU,22,RB,8.0,12.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+OCO,31,Alpine,15.0,13.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+STR,18,Aston Martin,17.0,14.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+ZHO,24,Kick Sauber,20.0,15.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+BOT,77,Kick Sauber,19.0,16.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+GAS,10,Alpine,18.0,17.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+RIC,3,RB,16.0,18.0,Lapped,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+MAG,20,Haas F1 Team,14.0,19.0,Retired,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+ALB,23,Williams,11.0,20.0,Retired,0.0,2024,Singapore Grand Prix,Marina Bay,18,0
+LEC,16,Ferrari,4.0,1.0,Finished,25.0,2024,United States Grand Prix,Austin,19,0
+SAI,55,Ferrari,3.0,2.0,Finished,18.0,2024,United States Grand Prix,Austin,19,0
+VER,1,Red Bull Racing,2.0,3.0,Finished,15.0,2024,United States Grand Prix,Austin,19,0
+NOR,4,McLaren,1.0,4.0,Finished,12.0,2024,United States Grand Prix,Austin,19,0
+PIA,81,McLaren,5.0,5.0,Finished,10.0,2024,United States Grand Prix,Austin,19,0
+RUS,63,Mercedes,20.0,6.0,Finished,8.0,2024,United States Grand Prix,Austin,19,0
+PER,11,Red Bull Racing,9.0,7.0,Finished,6.0,2024,United States Grand Prix,Austin,19,0
+HUL,27,Haas F1 Team,11.0,8.0,Finished,4.0,2024,United States Grand Prix,Austin,19,0
+LAW,30,RB,19.0,9.0,Finished,2.0,2024,United States Grand Prix,Austin,19,0
+COL,43,Williams,15.0,10.0,Finished,1.0,2024,United States Grand Prix,Austin,19,0
+MAG,20,Haas F1 Team,8.0,11.0,Finished,0.0,2024,United States Grand Prix,Austin,19,0
+GAS,10,Alpine,6.0,12.0,Finished,0.0,2024,United States Grand Prix,Austin,19,0
+ALO,14,Aston Martin,7.0,13.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+TSU,22,RB,10.0,14.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+STR,18,Aston Martin,13.0,15.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+ALB,23,Williams,14.0,16.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+BOT,77,Kick Sauber,16.0,17.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+OCO,31,Alpine,12.0,18.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+ZHO,24,Kick Sauber,18.0,19.0,Lapped,0.0,2024,United States Grand Prix,Austin,19,0
+HAM,44,Mercedes,17.0,20.0,Retired,0.0,2024,United States Grand Prix,Austin,19,0
+SAI,55,Ferrari,1.0,1.0,Finished,25.0,2024,Mexico City Grand Prix,Mexico City,20,0
+NOR,4,McLaren,3.0,2.0,Finished,18.0,2024,Mexico City Grand Prix,Mexico City,20,0
+LEC,16,Ferrari,4.0,3.0,Finished,16.0,2024,Mexico City Grand Prix,Mexico City,20,0
+HAM,44,Mercedes,6.0,4.0,Finished,12.0,2024,Mexico City Grand Prix,Mexico City,20,0
+RUS,63,Mercedes,5.0,5.0,Finished,10.0,2024,Mexico City Grand Prix,Mexico City,20,0
+VER,1,Red Bull Racing,2.0,6.0,Finished,8.0,2024,Mexico City Grand Prix,Mexico City,20,0
+MAG,20,Haas F1 Team,7.0,7.0,Finished,6.0,2024,Mexico City Grand Prix,Mexico City,20,0
+PIA,81,McLaren,17.0,8.0,Finished,4.0,2024,Mexico City Grand Prix,Mexico City,20,0
+HUL,27,Haas F1 Team,10.0,9.0,Lapped,2.0,2024,Mexico City Grand Prix,Mexico City,20,0
+GAS,10,Alpine,8.0,10.0,Lapped,1.0,2024,Mexico City Grand Prix,Mexico City,20,0
+STR,18,Aston Martin,14.0,11.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+COL,43,Williams,16.0,12.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+OCO,31,Alpine,,13.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+BOT,77,Kick Sauber,15.0,14.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+ZHO,24,Kick Sauber,19.0,15.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+LAW,30,RB,12.0,16.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+PER,11,Red Bull Racing,18.0,17.0,Lapped,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+ALO,14,Aston Martin,13.0,18.0,Retired,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+ALB,23,Williams,9.0,19.0,Retired,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+TSU,22,RB,11.0,20.0,Retired,0.0,2024,Mexico City Grand Prix,Mexico City,20,0
+VER,1,Red Bull Racing,17.0,1.0,Finished,26.0,2024,São Paulo Grand Prix,São Paulo,21,1
+OCO,31,Alpine,4.0,2.0,Finished,18.0,2024,São Paulo Grand Prix,São Paulo,21,1
+GAS,10,Alpine,13.0,3.0,Finished,15.0,2024,São Paulo Grand Prix,São Paulo,21,1
+RUS,63,Mercedes,2.0,4.0,Finished,12.0,2024,São Paulo Grand Prix,São Paulo,21,1
+LEC,16,Ferrari,6.0,5.0,Finished,10.0,2024,São Paulo Grand Prix,São Paulo,21,1
+NOR,4,McLaren,1.0,6.0,Finished,8.0,2024,São Paulo Grand Prix,São Paulo,21,1
+TSU,22,RB,3.0,7.0,Finished,6.0,2024,São Paulo Grand Prix,São Paulo,21,1
+PIA,81,McLaren,8.0,8.0,Finished,4.0,2024,São Paulo Grand Prix,São Paulo,21,1
+LAW,30,RB,5.0,9.0,Finished,2.0,2024,São Paulo Grand Prix,São Paulo,21,1
+HAM,44,Mercedes,14.0,10.0,Finished,1.0,2024,São Paulo Grand Prix,São Paulo,21,1
+PER,11,Red Bull Racing,12.0,11.0,Finished,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+BEA,50,Haas F1 Team,15.0,12.0,Finished,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+BOT,77,Kick Sauber,11.0,13.0,Finished,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+ALO,14,Aston Martin,9.0,14.0,Finished,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+ZHO,24,Kick Sauber,19.0,15.0,Finished,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+SAI,55,Ferrari,20.0,16.0,Retired,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+COL,43,Williams,16.0,17.0,Retired,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+ALB,23,Williams,7.0,18.0,Did not start,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+STR,18,Aston Martin,10.0,19.0,Did not start,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+HUL,27,Haas F1 Team,18.0,20.0,Disqualified,0.0,2024,São Paulo Grand Prix,São Paulo,21,1
+RUS,63,Mercedes,1.0,1.0,Finished,25.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+HAM,44,Mercedes,10.0,2.0,Finished,18.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+SAI,55,Ferrari,2.0,3.0,Finished,15.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+LEC,16,Ferrari,4.0,4.0,Finished,12.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+VER,1,Red Bull Racing,5.0,5.0,Finished,10.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+NOR,4,McLaren,6.0,6.0,Finished,9.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+PIA,81,McLaren,8.0,7.0,Finished,6.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+HUL,27,Haas F1 Team,9.0,8.0,Finished,4.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+TSU,22,RB,7.0,9.0,Finished,2.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+PER,11,Red Bull Racing,15.0,10.0,Finished,1.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+ALO,14,Aston Martin,16.0,11.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+MAG,20,Haas F1 Team,12.0,12.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+ZHO,24,Kick Sauber,13.0,13.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+COL,43,Williams,20.0,14.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+STR,18,Aston Martin,18.0,15.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+LAW,30,RB,14.0,16.0,Finished,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+OCO,31,Alpine,11.0,17.0,Lapped,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+BOT,77,Kick Sauber,19.0,18.0,Lapped,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+ALB,23,Williams,17.0,19.0,Retired,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+GAS,10,Alpine,3.0,20.0,Retired,0.0,2024,Las Vegas Grand Prix,Las Vegas,22,0
+VER,1,Red Bull Racing,2.0,1.0,Finished,25.0,2024,Qatar Grand Prix,Lusail,23,0
+LEC,16,Ferrari,5.0,2.0,Finished,18.0,2024,Qatar Grand Prix,Lusail,23,0
+PIA,81,McLaren,4.0,3.0,Finished,15.0,2024,Qatar Grand Prix,Lusail,23,0
+RUS,63,Mercedes,1.0,4.0,Finished,12.0,2024,Qatar Grand Prix,Lusail,23,0
+GAS,10,Alpine,11.0,5.0,Finished,10.0,2024,Qatar Grand Prix,Lusail,23,0
+SAI,55,Ferrari,7.0,6.0,Finished,8.0,2024,Qatar Grand Prix,Lusail,23,0
+ALO,14,Aston Martin,8.0,7.0,Finished,6.0,2024,Qatar Grand Prix,Lusail,23,0
+ZHO,24,Kick Sauber,12.0,8.0,Finished,4.0,2024,Qatar Grand Prix,Lusail,23,0
+MAG,20,Haas F1 Team,10.0,9.0,Finished,2.0,2024,Qatar Grand Prix,Lusail,23,0
+NOR,4,McLaren,3.0,10.0,Finished,2.0,2024,Qatar Grand Prix,Lusail,23,0
+BOT,77,Kick Sauber,13.0,11.0,Finished,0.0,2024,Qatar Grand Prix,Lusail,23,0
+HAM,44,Mercedes,6.0,12.0,Finished,0.0,2024,Qatar Grand Prix,Lusail,23,0
+TSU,22,RB,14.0,13.0,Finished,0.0,2024,Qatar Grand Prix,Lusail,23,0
+LAW,30,RB,17.0,14.0,Finished,0.0,2024,Qatar Grand Prix,Lusail,23,0
+ALB,23,Williams,16.0,15.0,Lapped,0.0,2024,Qatar Grand Prix,Lusail,23,0
+HUL,27,Haas F1 Team,18.0,16.0,Retired,0.0,2024,Qatar Grand Prix,Lusail,23,0
+PER,11,Red Bull Racing,9.0,17.0,Retired,0.0,2024,Qatar Grand Prix,Lusail,23,0
+STR,18,Aston Martin,15.0,18.0,Retired,0.0,2024,Qatar Grand Prix,Lusail,23,0
+COL,43,Williams,19.0,19.0,Retired,0.0,2024,Qatar Grand Prix,Lusail,23,0
+OCO,31,Alpine,20.0,20.0,Retired,0.0,2024,Qatar Grand Prix,Lusail,23,0
+NOR,4,McLaren,1.0,1.0,Finished,25.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+SAI,55,Ferrari,3.0,2.0,Finished,18.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+LEC,16,Ferrari,19.0,3.0,Finished,15.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+HAM,44,Mercedes,16.0,4.0,Finished,12.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+RUS,63,Mercedes,6.0,5.0,Finished,10.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+VER,1,Red Bull Racing,4.0,6.0,Finished,8.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+GAS,10,Alpine,5.0,7.0,Finished,6.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+HUL,27,Haas F1 Team,7.0,8.0,Finished,4.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+ALO,14,Aston Martin,8.0,9.0,Finished,2.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+PIA,81,McLaren,2.0,10.0,Finished,1.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+ALB,23,Williams,18.0,11.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+TSU,22,RB,11.0,12.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+ZHO,24,Kick Sauber,15.0,13.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+STR,18,Aston Martin,13.0,14.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+DOO,61,Alpine,17.0,15.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+MAG,20,Haas F1 Team,14.0,16.0,Lapped,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+LAW,30,RB,12.0,17.0,Retired,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+BOT,77,Kick Sauber,9.0,18.0,Retired,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+COL,43,Williams,20.0,19.0,Retired,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0
+PER,11,Red Bull Racing,10.0,20.0,Retired,0.0,2024,Abu Dhabi Grand Prix,Yas Island,24,0

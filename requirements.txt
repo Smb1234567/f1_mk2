@@ -1,0 +1,23 @@
+# F1 Race Predictor - Dependencies
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# F1 data access
+fastf1>=3.3.0
+
+# Machine learning (optional but recommended)
+xgboost>=2.0.0  # Comment out if installation fails
+
+# Model persistence
+joblib>=1.3.0
+
+# Streamlit dashboard
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.31.0

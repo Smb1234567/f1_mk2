@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.factories/
+.venv/
+venv/
+env/
+myvenv/
+f1_cache/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
+
+# Specific files to ignore
+race_loading_status.json
+
+# If you want to keep model artifacts and training data in the repo, don't ignore these:
+# f1_model_artifacts.pkl
+# training_data_raw.csv
+
+# If you want to exclude them (for size), uncomment the following:
+# f1_model_artifacts.pkl
+# training_data_raw.csv
