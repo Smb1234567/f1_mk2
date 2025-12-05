@@ -14,6 +14,14 @@ import logging
 from datetime import datetime
 from typing import Dict, Tuple
 
+# Try to import SHAP for model explainability
+try:
+    import shap
+    SHAP_AVAILABLE = True
+except ImportError:
+    SHAP_AVAILABLE = False
+    logging.warning("SHAP not available. Install with: pip install shap")
+
 # Try to import XGBoost (optional)
 try:
     from xgboost import XGBRegressor
@@ -124,6 +132,20 @@ class F1ModelTrainer:
         self.models['rf'] = rf
         logger.info("✓ Random Forest trained")
 
+        # Create SHAP explainer for the RandomForest model if available
+        self.shap_explainer = None
+        if SHAP_AVAILABLE:
+            logger.info("\nCreating SHAP explainer for predictions...")
+            try:
+                # Create a SHAP explainer for the Random Forest model
+                self.shap_explainer = shap.TreeExplainer(rf)
+                logger.info("✓ SHAP explainer created")
+            except Exception as e:
+                logger.warning(f"⚠ Could not create SHAP explainer: {e}")
+                self.shap_explainer = None
+        else:
+            logger.info("\nSHAP not available, skipping explainer creation")
+
         # Train XGBoost (if available)
         if XGBOOST_AVAILABLE:
             logger.info("\nTraining XGBoost...")
@@ -206,6 +228,7 @@ class F1ModelTrainer:
         - Trained models (rf, xgb, lr)
         - Imputer
         - Feature builder (with stats and encoding maps)
+        - SHAP explainer (if available)
         - Training metadata
         """
         logger.info("\n" + "="*60)
@@ -224,10 +247,12 @@ class F1ModelTrainer:
                 'team_map': self.feature_builder.team_map,
                 'circuit_map': self.feature_builder.circuit_map,
             },
+            'shap_explainer': self.shap_explainer,
             'training_info': {
                 'training_date': datetime.now().isoformat(),
                 'training_seasons': TRAINING_SEASONS,
                 'xgboost_available': XGBOOST_AVAILABLE,
+                'shap_available': SHAP_AVAILABLE,
             }
         }
 
@@ -277,12 +302,13 @@ def load_trained_model(filepath: str = 'f1_model_artifacts.pkl') -> Dict:
     Load previously trained model artifacts.
 
     Returns:
-        Dict containing models, imputer, feature_builder, etc.
+        Dict containing models, imputer, feature_builder, shap_explainer, etc.
     """
     artifacts = joblib.load(filepath)
     logger.info(f"Loaded model artifacts from {filepath}")
     logger.info(f"  Training date: {artifacts['training_info']['training_date']}")
     logger.info(f"  Training seasons: {artifacts['training_info']['training_seasons']}")
+    logger.info(f"  SHAP available: {artifacts['training_info']['shap_available']}")
     return artifacts
 
 
