@@ -489,65 +489,60 @@ def render_past_race_analysis(artifacts: dict, loader: F1DataLoader):
             
             st.dataframe(styled_df, use_container_width=True, height=600)
             
-            # Visualization
+            # Enhanced past race analysis with comprehensive metrics
             st.markdown("---")
-            st.subheader("📈 Prediction Accuracy")
+            st.subheader("🏆 Comprehensive Performance Analysis")
 
-            # Proper scatter plot for prediction error analysis
-            fig = go.Figure()
+            # Add methodology explanation in an organized layout
+            with st.expander("📋 **How These Predictions Were Made**", expanded=False):
+                st.markdown("""
+                **Timeline**: These predictions were generated **before** the race started using only information available up to that point.
 
-            # Add perfect prediction line (y=x)
-            max_pos = max(results_df['Position'].max(), results_df['Ensemble_Pred'].max()) + 1
-            fig.add_trace(go.Scatter(
-                x=[1, max_pos],
-                y=[1, max_pos],
-                mode='lines',
-                line=dict(color='red', dash='dash', width=2),
-                name='Perfect Prediction',
-                showlegend=True
-            ))
+                **Methodology**:
+                1. **Historical Data**: The model uses patterns from 2022-2024 seasons (excluding this specific race)
+                2. **Pre-Race Inputs**: Grid positions, driver performance history, team performance history
+                3. **Circuit Context**: Historical performance patterns specific to this circuit type
+                4. **ML Processing**: Ensemble model (Random Forest, XGBoost, Linear Regression) weighted combination
 
-            # Add actual vs predicted points with color coding based on error magnitude
-            errors = np.abs(results_df['Position'] - results_df['Ensemble_Pred'])
-            max_error = errors.max() if len(errors) > 0 else 1
+                **Key Point**: This is **NOT** using the race results to make predictions - these predictions were made in real-time before the race, just like we would for a future race.
 
-            fig.add_trace(go.Scatter(
-                x=results_df['Position'],
-                y=results_df['Ensemble_Pred'],
-                mode='markers',
-                marker=dict(
-                    size=12,
-                    color=errors,
-                    colorscale=[
-                        [0, 'green'],      # Low error (good prediction)
-                        [0.5, 'yellow'],   # Medium error
-                        [1, 'red']         # High error (poor prediction)
-                    ],
-                    showscale=True,
-                    colorbar=dict(title="Prediction Error"),
-                    opacity=0.8
-                ),
-                text=results_df['DriverCode'] + '<br>Actual: ' + results_df['Position'].astype(str) +
-                     '<br>Pred: ' + results_df['Ensemble_Pred'].round(1).astype(str) +
-                     '<br>Error: ' + errors.round(1).astype(str),
-                hovertemplate='%{text}<extra></extra>',
-                name='Driver Predictions'
-            ))
+                **Validation**: The "Past Race Analysis" compares these pre-race predictions to actual results to validate the model's predictive capability for future races.
+                """)
 
-            fig.update_layout(
-                title="Actual vs Predicted Positions (Perfect = Points on Red Line)",
-                xaxis_title="Actual Finishing Position (1st at left, worse to right)",
-                yaxis_title="Predicted Finishing Position (1st at bottom, worse up)",
-                xaxis=dict(autorange="reversed", dtick=1, range=[max_pos, 0.5]),
-                yaxis=dict(autorange="reversed", dtick=1, range=[max_pos, 0.5]),
-                width=700,
-                height=600,
-                showlegend=True
-            )
+            st.markdown("---")
 
-            st.plotly_chart(fig, use_container_width=True)
+            # Performance dashboard
+            from visuals import plot_comprehensive_performance_dashboard
+            dashboard_fig = plot_comprehensive_performance_dashboard(results_df)
+            st.plotly_chart(dashboard_fig, use_container_width=True)
 
-            st.info("💡 **How to read**: Points on red line = perfect prediction. Green points = low error, Red points = high error. Closer to line = better prediction.")
+            st.markdown("---")
+
+            # Position accuracy heatmap
+            from visuals import plot_position_accuracy_heatmap
+            heatmap_fig = plot_position_accuracy_heatmap(results_df)
+            st.plotly_chart(heatmap_fig, use_container_width=True)
+
+            st.markdown("---")
+
+            # Original deviation plot
+            from visuals import plot_prediction_deviation_stories
+            deviation_fig = plot_prediction_deviation_stories(results_df)
+            st.plotly_chart(deviation_fig, use_container_width=True)
+
+            with st.expander("🔍 **How to Interpret This Visualization**", expanded=False):
+                st.markdown("""
+                **Understanding the Deviation Plot**:
+                - **Bars** show how far off each prediction was from actual results
+                - **Positive values** (right of center): Predicted worse than actual finish
+                - **Negative values** (left of center): Predicted better than actual finish
+                - **Color coding**:
+                  - 🟢 **Green**: Excellent accuracy (within 1 position)
+                  - 🟡 **Yellow**: Good accuracy (1-2 positions off)
+                  - 🟠 **Orange**: Fair accuracy (2-4 positions off)
+                  - 🔴 **Red**: Poor accuracy (4+ positions off)
+                - **Length** of bar indicates magnitude of error
+                """)
 
 
 # ==========================
@@ -918,11 +913,17 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
             # Add prediction explanations using SHAP
             st.markdown("---")
             st.subheader("🔍 Prediction Explanations")
-            st.info("ℹ️ **How this works**: SHAP explains AI predictions by showing which factors most influenced each driver's predicted position.")
 
-            st.markdown("Why each driver was predicted to finish in their position:")
+            with st.expander("ℹ️ **How This Works**", expanded=False):
+                st.markdown("""
+                **SHAP (SHapley Additive exPlanations) explains AI predictions by showing which factors most influenced each driver's predicted position.**
 
-            # Create explanations for each driver using SHAP
+                This provides transparency into the model's decision-making process, showing what factors contributed to higher or lower predicted finishing positions.
+                """)
+
+            st.markdown("### **Why Each Driver Was Predicted to Finish in Their Position:**")
+
+            # Create explanations for each driver using SHAP in organized sections
             for idx, row in result.iterrows():
                 explanation = explain_prediction_with_shap(
                     row['DriverCode'],
@@ -939,52 +940,78 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
                 else:
                     emoji = "🚗"
 
-                st.markdown(f"{emoji} {explanation}")
+                # Use a more organized format with better visual separation
+                st.markdown(f"**{emoji} {row['DriverCode']} ({row['TeamName']})**")
+                st.markdown(f"*Predicted P{row['Ensemble_Pred']:.1f} based on:*")
+                st.markdown(f"&nbsp;&nbsp;&nbsp;&nbsp;{explanation}")
+                st.markdown("---")  # Add visual separator between explanations
 
-            # Visualization: Expected position changes with cleaner approach
+            # Enhanced prediction visualizations with storytelling focus
             st.markdown("---")
-            st.subheader("📊 Expected Position Changes")
+            st.subheader("🎯 Model Confidence Assessment")
 
-            # Create a simple bar chart showing difference between grid and predicted
-            result_sorted = result.sort_values('GridPosition')  # Sort by grid position for better readability
+            # Show model reliability metrics
+            from visuals.enhanced_future_visuals import plot_model_confidence_metrics
+            confidence_fig = plot_model_confidence_metrics(artifacts)
+            st.plotly_chart(confidence_fig, use_container_width=True)
 
-            fig = go.Figure()
+            with st.expander("📊 **Understanding Model Confidence**", expanded=False):
+                st.markdown("""
+                **Model Confidence Indicators**:
+                - Shows how accurate the model has been historically
+                - Use this to calibrate your expectations for these predictions
+                - Lower error rates indicate higher confidence in predictions
+                - Confidence varies by driver based on historical data availability
+                """)
 
-            # Calculate color based on position change
-            colors = ['green' if row['Ensemble_Pred'] < row['GridPosition']
-                     else 'red' if row['Ensemble_Pred'] > row['GridPosition']
-                     else 'gray' for _, row in result_sorted.iterrows()]
-
-            # Create bar chart showing the delta
-            fig.add_trace(go.Bar(
-                x=result_sorted['DriverCode'],
-                y=result_sorted['Ensemble_Pred'] - result_sorted['GridPosition'],  # Delta
-                marker_color=colors,
-                name='Position Change',
-                text=[f"{pred:.1f}" if pred < grid else f"-{pred:.1f}"
-                      for grid, pred in zip(result_sorted['GridPosition'], result_sorted['Ensemble_Pred'])],
-                textposition='outside',
-                hovertemplate='<b>%{x}</b><br>Grid: %{customdata[0]}<br>Predicted: %{customdata[1]:.1f}<br>Change: %{y:.1f}<extra></extra>',
-                customdata=result_sorted[['GridPosition', 'Ensemble_Pred']].values
-            ))
-
-            fig.update_layout(
-                title="Expected Position Changes from Grid Position",
-                xaxis_title="Driver",
-                yaxis_title="Position Change (Negative = Gains Positions)",
-                shapes=[dict(type='line', xref='paper', x0=0, x1=1, yref='y', y0=0, y1=0,
-                           line=dict(color='gray', dash='dash', width=1))],  # Zero line
-                height=500
-            )
-
-            st.plotly_chart(fig, use_container_width=True)
-
-            # Additional info for clarity
-            st.info("💡 **How to read**: Bars below 0 = drivers gaining positions (prediction better than grid). Bars above 0 = drivers losing positions. Length = magnitude of change.")
-
-            # Edge case warnings
+            # Story-driven position changes visualization
             st.markdown("---")
-            st.info("ℹ️ **Note**: Predictions use historical driver/team stats. Rookie drivers use team-based estimates.")
+            st.subheader("🔄 Expected Position Changes Story")
+
+            from visuals.enhanced_future_visuals import plot_position_changes_story
+            changes_fig = plot_position_changes_story(result)
+            st.plotly_chart(changes_fig, use_container_width=True)
+
+            st.markdown("---")
+            st.subheader("🎯 Prediction Confidence Bands")
+
+            from visuals.enhanced_future_visuals import plot_prediction_certainty_bands
+            confidence_bands_fig = plot_prediction_certainty_bands(result)
+            st.plotly_chart(confidence_bands_fig, use_container_width=True)
+
+            # Team performance story
+            st.markdown("---")
+            st.subheader("👥 Team Performance Predictions")
+
+            from visuals.enhanced_future_visuals import plot_team_performance_story
+            team_fig = plot_team_performance_story(result)
+            st.plotly_chart(team_fig, use_container_width=True)
+
+            # Key highlights and narrative
+            st.markdown("---")
+            st.subheader("🔥 Key Prediction Highlights")
+
+            from visuals.enhanced_future_visuals import highlight_key_predictions
+            key_highlights = highlight_key_predictions(result)
+
+            # Organize highlights in a cleaner format with better visual presentation
+            highlights_container = st.container()
+            for i, highlight in enumerate(key_highlights):
+                # Create a more visually separated highlight
+                highlights_container.markdown(f"<div style='margin: 5px 0; padding: 8px; background-color: #f8f9fa; border-radius: 5px; border-left: 3px solid #007BFF; color: #212529;'>{highlight}</div>", unsafe_allow_html=True)
+
+            # Narrative context
+            st.markdown("---")
+            with st.container():
+                st.markdown("### **Important Context**")
+                st.markdown("""
+                *These predictions are based on historical driver and team performance patterns. Please note:*
+
+                - **Confidence varies**: Predictions are more reliable for drivers with extensive historical data
+                - **External factors**: Weather conditions, strategy, and race incidents can significantly impact results
+                - **Model limitations**: Based on patterns from 2022-2024 seasons only
+                - **Probabilistic nature**: Results represent most likely outcomes, not certainties
+                """)
 
 
 # ==========================
