@@ -43,7 +43,7 @@ def plot_model_confidence_metrics(artifacts: dict) -> go.Figure:
     fig.add_trace(go.Indicator(
         mode="gauge+number",
         value=avg_error,
-        domain={'x': [0, 0.48], 'y': [0.6, 1]},
+        domain={'x': [0, 0.4], 'y': [0.575, 1.0]},
         title={'text': "Avg Error (pos)"},
         gauge={
             'axis': {'range': [None, 10]},
@@ -66,7 +66,7 @@ def plot_model_confidence_metrics(artifacts: dict) -> go.Figure:
     fig.add_trace(go.Indicator(
         mode="gauge+number",
         value=accuracy_rate_2_pos * 100,
-        domain={'x': [0.52, 1], 'y': [0.6, 1]},
+        domain={'x': [0.6, 1.0], 'y': [0.575, 1.0]},
         title={'text': "Accuracy ±2 pos (%)"},
         gauge={
             'axis': {'range': [None, 100]},
@@ -89,7 +89,7 @@ def plot_model_confidence_metrics(artifacts: dict) -> go.Figure:
     fig.add_trace(go.Indicator(
         mode="gauge+number",
         value=accuracy_rate_1_pos * 100,
-        domain={'x': [0, 1], 'y': [0, 0.4]},
+        domain={'x': [0, 0.4], 'y': [0, 0.425]},
         title={'text': "Accuracy ±1 pos (%)"},
         gauge={
             'axis': {'range': [None, 100]},

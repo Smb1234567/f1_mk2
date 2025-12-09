@@ -153,29 +153,9 @@ def get_current_season_drivers_teams(loader: F1DataLoader, year: int = None) -> 
     # For future seasons (like 2025), use confirmed driver roster
     # This is our fallback for seasons where FastF1 data is not available
     if year == 2025:
-        # 2025 confirmed driver roster based on official announcements
-        return {
-            'VER': 'Red Bull',          # Max Verstappen
-            'LAW': 'Red Bull',          # Liam Lawson
-            'LEC': 'Ferrari',           # Charles Leclerc
-            'HAM': 'Ferrari',           # Lewis Hamilton
-            'NOR': 'McLaren',           # Lando Norris
-            'PIA': 'McLaren',           # Oscar Piastri
-            'RUS': 'Mercedes',          # George Russell
-            'ANT': 'Mercedes',          # Andrea Kimi Antonelli (new driver)
-            'ALO': 'Aston Martin',      # Fernando Alonso
-            'STR': 'Aston Martin',      # Lance Stroll
-            'TSU': 'RB',                # Yuki Tsunoda
-            'HAD': 'RB',                # Isack Hadjar (new driver)
-            'BEA': 'Haas',              # Oliver Bearman (new driver)
-            'OCO': 'Haas',              # Esteban Ocon
-            'GAS': 'Alpine',            # Pierre Gasly
-            'DOO': 'Alpine',            # Jack Doohan (new driver)
-            'DEV': 'Williams',          # Alex Albon
-            'SAI': 'Williams',          # Carlos Sainz
-            'HUL': 'Kick Sauber',       # Nico Hulkenberg
-            'BOR': 'Kick Sauber',       # Gabriel Bortoleto (new driver)
-        }
+        # 2025 confirmed driver roster - import from sample data file
+        from sample_2025_drivers import get_2025_sample_drivers
+        return get_2025_sample_drivers()
 
     # Fallback to most recent training data for other cases
     return {}
@@ -186,28 +166,8 @@ def get_driver_names() -> Dict[str, str]:
     Get full driver names for driver codes.
     Returns a dictionary mapping driver codes to full names.
     """
-    return {
-        'VER': 'Max Verstappen',          # Red Bull
-        'LAW': 'Liam Lawson',             # Red Bull
-        'LEC': 'Charles Leclerc',         # Ferrari
-        'HAM': 'Lewis Hamilton',          # Ferrari
-        'NOR': 'Lando Norris',            # McLaren
-        'PIA': 'Oscar Piastri',           # McLaren
-        'RUS': 'George Russell',          # Mercedes
-        'ANT': 'Andrea Kimi Antonelli',   # Mercedes (new driver)
-        'ALO': 'Fernando Alonso',         # Aston Martin
-        'STR': 'Lance Stroll',            # Aston Martin
-        'TSU': 'Yuki Tsunoda',            # RB
-        'HAD': 'Isack Hadjar',           # RB (new driver)
-        'BEA': 'Oliver Bearman',         # Haas (new driver)
-        'OCO': 'Esteban Ocon',            # Haas
-        'GAS': 'Pierre Gasly',            # Alpine
-        'DOO': 'Jack Doohan',            # Alpine (new driver)
-        'DEV': 'Alex Albon',              # Williams
-        'SAI': 'Carlos Sainz',            # Williams
-        'HUL': 'Nico Hulkenberg',        # Kick Sauber
-        'BOR': 'Gabriel Bortoleto',      # Kick Sauber (new driver)
-    }
+    from sample_2025_drivers import get_driver_names as get_2025_driver_names
+    return get_2025_driver_names()
 
 
 def explain_prediction_with_shap(driver_code: str, team_name: str, features_row: pd.Series, artifacts: dict, prediction: float) -> str:
@@ -537,10 +497,10 @@ def render_past_race_analysis(artifacts: dict, loader: F1DataLoader):
                 - **Positive values** (right of center): Predicted worse than actual finish
                 - **Negative values** (left of center): Predicted better than actual finish
                 - **Color coding**:
-                  - 🟢 **Green**: Excellent accuracy (within 1 position)
-                  - 🟡 **Yellow**: Good accuracy (1-2 positions off)
-                  - 🟠 **Orange**: Fair accuracy (2-4 positions off)
-                  - 🔴 **Red**: Poor accuracy (4+ positions off)
+                  - 🟢 **Green**: Excellent accuracy (within 1 position) - #00B894
+                  - 🏄 **Cyan**: Good accuracy (1-2 positions off) - #00CEC9
+                  - 🟡 **Yellow**: Fair accuracy (2-4 positions off) - #FDCB6E
+                  - 🟠 **Orange**: Poor accuracy (4+ positions off) - #E17055
                 - **Length** of bar indicates magnitude of error
                 """)
 
@@ -566,34 +526,91 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
             index=1 if current_year >= 2025 else 0
         )
 
-        # Get upcoming events
-        upcoming_events = loader.get_upcoming_events(season)
+        # Define circuit mapping for automatic circuit selection
+        circuit_mapping = {
+            "Australian Grand Prix": "Albert Park Circuit",
+            "Chinese Grand Prix": "Shanghai International Circuit",
+            "Japanese Grand Prix": "Suzuka International Racing Course",
+            "Bahrain Grand Prix": "Bahrain International Circuit",
+            "Saudi Arabian Grand Prix": "Jeddah Corniche Circuit",
+            "Miami Grand Prix": "Miami International Autodrome",
+            "Emilia Romagna Grand Prix": "Imola Circuit",
+            "Monaco Grand Prix": "Circuit de Monaco",
+            "Spanish Grand Prix": "Circuit de Barcelona-Catalunya",
+            "Canadian Grand Prix": "Circuit Gilles Villeneuve",
+            "Austrian Grand Prix": "Red Bull Ring",
+            "British Grand Prix": "Silverstone Circuit",
+            "Belgian Grand Prix": "Circuit de Spa-Francorchamps",
+            "Hungarian Grand Prix": "Hungaroring",
+            "Dutch Grand Prix": "Circuit Zandvoort",
+            "Italian Grand Prix": "Monza Circuit",
+            "Azerbaijan Grand Prix": "Baku City Circuit",
+            "Singapore Grand Prix": "Marina Bay Street Circuit",
+            "United States Grand Prix": "Circuit of the Americas",
+            "Mexican Grand Prix": "Autódromo Hermanos Rodríguez",
+            "Brazilian Grand Prix": "Interlagos Circuit",
+            "Las Vegas Grand Prix": "Las Vegas Strip Circuit",
+            "Qatar Grand Prix": "Losail International Circuit",
+            "Abu Dhabi Grand Prix": "Yas Marina Circuit"
+        }
 
-        if upcoming_events:
+        # Get events based on season
+        if season == 2025:
+            # For 2025, provide all races as options since the season might be completed
+            # but we still want to allow predictions for any of the 2025 races
+            all_2025_events = [
+                "Australian Grand Prix", "Chinese Grand Prix", "Japanese Grand Prix",
+                "Bahrain Grand Prix", "Saudi Arabian Grand Prix", "Miami Grand Prix",
+                "Emilia Romagna Grand Prix", "Monaco Grand Prix", "Spanish Grand Prix",
+                "Canadian Grand Prix", "Austrian Grand Prix", "British Grand Prix",
+                "Belgian Grand Prix", "Hungarian Grand Prix", "Dutch Grand Prix",
+                "Italian Grand Prix", "Azerbaijan Grand Prix", "Singapore Grand Prix",
+                "United States Grand Prix", "Mexican Grand Prix", "Brazilian Grand Prix",
+                "Las Vegas Grand Prix", "Qatar Grand Prix", "Abu Dhabi Grand Prix"
+            ]
             event = st.selectbox(
-                "Upcoming Grand Prix",
-                options=upcoming_events,
-                help="Select a future race to predict"
+                "Grand Prix",
+                options=all_2025_events,
+                help="Select a 2025 race to predict"
             )
+            # Automatically set circuit based on selected event
+            circuit_name = circuit_mapping.get(event, "Yas Marina Circuit")
         else:
-            st.warning("No upcoming events found. Using custom mode.")
-            event = st.text_input("Event Name", "Custom Grand Prix")
+            # For other seasons, use the loader's method
+            upcoming_events = loader.get_upcoming_events(season)
 
-        # Circuit selection (for stats lookup)
-        # Use a more common default or allow selection from known circuits
-        upcoming_circuits = [
-            "Bahrain International Circuit", "Circuit de Monaco", "Circuit Gilles Villeneuve",
-            "Red Bull Ring", "Silverstone", "Hungaroring", "Spa-Francorchamps", "Zandvoort",
-            "Monza", "Baku City Circuit", "Circuit of the Americas", "Autódromo Hermanos Rodríguez",
-            "Interlagos", "Las Vegas Strip Circuit", "Yas Marina Circuit", "Losail International Circuit"
-        ]
+            if upcoming_events:
+                event = st.selectbox(
+                    "Upcoming Grand Prix",
+                    options=upcoming_events,
+                    help="Select a future race to predict"
+                )
+                # Try to get circuit automatically, fallback to manual selection
+                default_circuit = circuit_mapping.get(event, "Yas Marina Circuit")
+            else:
+                st.warning("No upcoming events found. Using custom mode.")
+                event = st.text_input("Event Name", "Custom Grand Prix")
+                default_circuit = "Yas Marina Circuit"
 
-        circuit_name = st.selectbox(
-            "Circuit",
-            options=upcoming_circuits,
-            index=upcoming_circuits.index("Yas Marina Circuit"),  # Default to Yas Marina Circuit
-            help="Select the circuit for the race"
-        )
+            # Circuit selection (for stats lookup)
+            # Use a more common default or allow selection from known circuits
+            upcoming_circuits = [
+                "Albert Park Circuit", "Shanghai International Circuit", "Suzuka International Racing Course",
+                "Bahrain International Circuit", "Jeddah Corniche Circuit", "Miami International Autodrome",
+                "Imola Circuit", "Circuit de Monaco", "Circuit de Barcelona-Catalunya",
+                "Circuit Gilles Villeneuve", "Red Bull Ring", "Silverstone Circuit",
+                "Circuit de Spa-Francorchamps", "Hungaroring", "Circuit Zandvoort",
+                "Monza Circuit", "Baku City Circuit", "Marina Bay Street Circuit",
+                "Circuit of the Americas", "Autódromo Hermanos Rodríguez", "Interlagos Circuit",
+                "Las Vegas Strip Circuit", "Losail International Circuit", "Yas Marina Circuit"
+            ]
+
+            circuit_name = st.selectbox(
+                "Circuit",
+                options=upcoming_circuits,
+                index=upcoming_circuits.index(default_circuit) if default_circuit in upcoming_circuits else upcoming_circuits.index("Yas Marina Circuit"),  # Default to appropriate circuit
+                help="Select the circuit for the race"
+            )
 
         st.markdown("---")
 
@@ -611,35 +628,6 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
     st.markdown("Select drivers and their qualifying positions (teams will be auto-populated when you select a driver)")
     st.info("💡 **Tip**: Use the 'Update Grid' button after making changes to save your selections.")
 
-    # Demo mode button
-    if st.button("🎯 Load Demo Grid (2025 Season)", type="secondary"):
-        # Pre-fill with realistic demo data based on 2025 season knowledge
-        demo_drivers_teams = {
-            0: {'driver_code': 'VER', 'team_name': 'Red Bull', 'grid_position': 1},  # Max Verstappen
-            1: {'driver_code': 'LEC', 'team_name': 'Ferrari', 'grid_position': 2},  # Charles Leclerc
-            2: {'driver_code': 'HAM', 'team_name': 'Ferrari', 'grid_position': 3},  # Lewis Hamilton
-            3: {'driver_code': 'RUS', 'team_name': 'Mercedes', 'grid_position': 4},  # George Russell
-            4: {'driver_code': 'NOR', 'team_name': 'McLaren', 'grid_position': 5},  # Lando Norris
-            5: {'driver_code': 'PIA', 'team_name': 'McLaren', 'grid_position': 6},  # Oscar Piastri
-            6: {'driver_code': 'ANT', 'team_name': 'Mercedes', 'grid_position': 7},  # Kimi Antonelli
-            7: {'driver_code': 'ALO', 'team_name': 'Aston Martin', 'grid_position': 8},  # Fernando Alonso
-            8: {'driver_code': 'SAI', 'team_name': 'Williams', 'grid_position': 9},  # Carlos Sainz
-            9: {'driver_code': 'DEV', 'team_name': 'Williams', 'grid_position': 10}, # Alex Albon
-        }
-
-        # Fill the session state with demo data
-        for i in range(20):
-            if i in demo_drivers_teams:
-                st.session_state.driver_grid_rows[i] = demo_drivers_teams[i]
-            else:
-                st.session_state.driver_grid_rows[i] = {
-                    'driver_code': '',
-                    'team_name': '',
-                    'grid_position': 0
-                }
-
-        st.success("Demo grid loaded! Use 'Update Grid' to see the changes.")
-        st.rerun()
 
     # Get driver-team combinations for the selected season (e.g., 2025)
     current_drivers_teams = get_current_season_drivers_teams(loader, season)
@@ -735,7 +723,22 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
             ref_df = ref_df.sort_values('Code')  # Sort alphabetically by code
             st.dataframe(ref_df, use_container_width=True, hide_index=True)
         else:
-            st.info("No driver data available")
+            # Load 2025 drivers as default fallback
+            from sample_2025_drivers import get_2025_sample_drivers, get_driver_names as get_25_names
+            sample_drivers_teams = get_2025_sample_drivers()
+            sample_driver_names = get_25_names()
+
+            if sample_drivers_teams:
+                ref_data = []
+                for code, team in sample_drivers_teams.items():
+                    full_name = sample_driver_names.get(code, "Unknown Driver")
+                    ref_data.append({'Code': code, 'Name': full_name, 'Team': team})
+
+                ref_df = pd.DataFrame(ref_data)
+                ref_df = ref_df.sort_values('Code')  # Sort alphabetically by code
+                st.dataframe(ref_df, use_container_width=True, hide_index=True)
+            else:
+                st.info("No driver data available")
 
     # Right column: Grid setup form
     with right_col:
@@ -781,10 +784,27 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
                     driver_key = f"driver_{i}"
                     current_driver = st.session_state.driver_grid_rows[i]['driver_code']
 
+                    # Build options list - include demo drivers that might not be in current_drivers_teams
+                    base_options = list(current_drivers_teams.keys()) if current_drivers_teams else known_drivers
+                    # Make sure current driver from demo is in options if it's not already there
+                    if current_driver and current_driver not in base_options:
+                        base_options = [current_driver] + base_options
+                    options_list = [''] + base_options
+
+                    # Calculate index with error handling
+                    try:
+                        if not current_driver:
+                            index_val = 0
+                        else:
+                            index_val = options_list.index(current_driver)
+                    except ValueError:
+                        # If current_driver is not in options, default to 0 (empty)
+                        index_val = 0
+
                     selected_driver = st.selectbox(
                         f"Driver {i+1}",
-                        options=[''] + list(current_drivers_teams.keys()) if current_drivers_teams else known_drivers,
-                        index=0 if not current_driver else (list(current_drivers_teams.keys()).index(current_driver) + 1 if current_driver in current_drivers_teams else 0),
+                        options=options_list,
+                        index=index_val,
                         key=driver_key,
                         label_visibility="collapsed",
                         format_func=lambda x: f"{driver_names.get(x, x)} ({x})" if x else "Select Driver"
@@ -810,10 +830,27 @@ def render_future_prediction(artifacts: dict, loader: F1DataLoader):
                         current_team = current_drivers_teams[selected_driver]
                         st.session_state.driver_grid_rows[i]['team_name'] = current_team
 
+                    # Build options list - include demo team that might not be in known_teams
+                    base_options = known_teams.copy()
+                    # Make sure current team from demo is in options if it's not already there
+                    if current_team and current_team not in base_options:
+                        base_options = [current_team] + base_options
+                    options_list = [''] + base_options
+
+                    # Calculate index with error handling
+                    try:
+                        if not current_team:
+                            index_val = 0
+                        else:
+                            index_val = options_list.index(current_team)
+                    except ValueError:
+                        # If current_team is not in options, default to 0 (empty)
+                        index_val = 0
+
                     selected_team = st.selectbox(
                         f"Team {i+1}",
-                        options=[''] + known_teams,
-                        index=0 if not current_team else (known_teams.index(current_team) + 1 if current_team in known_teams else 0),
+                        options=options_list,
+                        index=index_val,
                         key=team_key,
                         label_visibility="collapsed"
                     )
